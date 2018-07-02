@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>NServiceBus</id>
+    <id>NServiceBus_6</id>
     <title>NServiceBus</title>
     <version>$version$</version>
     <authors>$authors$</authors>
@@ -21,7 +21,7 @@
     <dependencies/>
   </metadata>
   <files>
-    <file src="..\..\binaries\NServiceBus.Core.???" target="lib\net452" />
+    <file src="..\..\binaries\NServiceBus_6.Core.???" target="lib\net452" />
     <file src="..\..\packaging\nuget\tools\init.ps1" target="tools" />
   </files>
 </package>
