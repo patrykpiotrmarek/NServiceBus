@@ -1,4 +1,4 @@
-namespace NServiceBus.Config.ConfigurationSource
+namespace NServiceBus_6.Config.ConfigurationSource
 {
     using System;
     using System.Configuration;

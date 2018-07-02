@@ -1,10 +1,10 @@
-namespace NServiceBus.Core.Tests.Timeout
+namespace NServiceBus_6.Core.Tests.Timeout
 {
     using System;
     using System.Linq;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Timeout.Core;
+    using NServiceBus_6.Timeout.Core;
     using NUnit.Framework;
 
     [TestFixture]

@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions
+namespace NServiceBus_6.Unicast.Subscriptions.MessageDrivenSubscriptions
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;

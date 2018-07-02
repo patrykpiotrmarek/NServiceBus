@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Persistence.Legacy
+﻿namespace NServiceBus_6.Persistence.Legacy
 {
     using Features;
 

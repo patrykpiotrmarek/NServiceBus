@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -11,7 +11,7 @@ namespace NServiceBus
     {
         public InstanceMappingFileParser()
         {
-            using (var stream = GetType().Assembly.GetManifestResourceStream("NServiceBus.Transports.Msmq.InstanceMapping.endpoints.xsd"))
+            using (var stream = GetType().Assembly.GetManifestResourceStream("NServiceBus_6.Transports.Msmq.InstanceMapping.endpoints.xsd"))
             using (var xmlReader = XmlReader.Create(stream))
             {
                 schema = new XmlSchemaSet();

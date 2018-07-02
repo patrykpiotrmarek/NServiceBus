@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Persistence.InMemory.Tests
+﻿namespace NServiceBus_6.Persistence.InMemory.Tests
 {
     using System;
     using System.Linq;

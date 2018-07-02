@@ -1,7 +1,7 @@
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     using System;
-    using NServiceBus.DataBus;
+    using NServiceBus_6.DataBus;
 
     class DataBusFileBased : Feature
     {

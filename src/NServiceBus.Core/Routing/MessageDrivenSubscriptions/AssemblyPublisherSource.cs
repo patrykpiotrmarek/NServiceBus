@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -26,7 +26,7 @@ namespace NServiceBus
 
             if (!entries.Any())
             {
-                throw new Exception($"Cannot configure publisher for assembly {messageAssembly.GetName().Name} because it contains no types considered as events. Event types have to either implement NServiceBus.IEvent interface or match a defined event convention.");
+                throw new Exception($"Cannot configure publisher for assembly {messageAssembly.GetName().Name} because it contains no types considered as events. Event types have to either implement NServiceBus_6.IEvent interface or match a defined event convention.");
             }
 
             return entries;
@@ -41,7 +41,7 @@ namespace NServiceBus
 
             if (!entries.Any())
             {
-                throw new Exception($"Cannot configure publisher for assembly {messageAssembly.GetName().Name} because it contains no types considered as messages. Message types have to either implement NServiceBus.IMessage interface or match a defined convention.");
+                throw new Exception($"Cannot configure publisher for assembly {messageAssembly.GetName().Name} because it contains no types considered as messages. Message types have to either implement NServiceBus_6.IMessage interface or match a defined convention.");
             }
 
             return entries;

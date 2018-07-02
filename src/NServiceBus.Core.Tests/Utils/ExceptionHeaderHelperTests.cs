@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests.Utils
+namespace NServiceBus_6.Core.Tests.Utils
 {
     using System;
     using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace NServiceBus.Core.Tests.Utils
 
             Assert.AreEqual("System.Exception", dictionary["NServiceBus.ExceptionInfo.InnerExceptionType"]);
             Assert.AreEqual("A fake help link", dictionary["NServiceBus.ExceptionInfo.HelpLink"]);
-            Assert.AreEqual("NServiceBus.Core.Tests", dictionary["NServiceBus.ExceptionInfo.Source"]);
+            Assert.AreEqual("NServiceBus_6.Core.Tests", dictionary["NServiceBus.ExceptionInfo.Source"]);
         }
 
         Exception GetAnException()

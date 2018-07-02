@@ -1,13 +1,13 @@
 ﻿// disable obsolete warnings. Test will be removed in next major version
 #pragma warning disable CS0618
-namespace NServiceBus.AcceptanceTests.BestPractices
+namespace NServiceBus_6.AcceptanceTests.BestPractices
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     public class When_sending_non_message_with_routing_configured_via_mappings : NServiceBusAcceptanceTest

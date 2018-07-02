@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests.Distributor
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests.Distributor
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_worker_sends_a_message_to_the_error_queue : NServiceBusAcceptanceTest

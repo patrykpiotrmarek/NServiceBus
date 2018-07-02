@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     using System;
     using Config;
@@ -98,7 +98,7 @@
         {
             if (loggingConfig != null)
             {
-                Logger.Error("Usage of the 'NServiceBus.Config.Logging' configuration section is discouraged and will be removed with the next major version. Use the LogManager.Use<DefaultFactory>() code configuration API instead.");
+                Logger.Error("Usage of the 'NServiceBus_6.Config.Logging' configuration section is discouraged and will be removed with the next major version. Use the LogManager.Use<DefaultFactory>() code configuration API instead.");
             }
         }
 
@@ -106,7 +106,7 @@
         {
             if (faultConfig != null)
             {
-                Logger.Error("Usage of the 'NServiceBus.Config.MessageForwardingInCaseOfFaultConfig' configuration section is discouraged and will be removed with the next major version. Use the 'endpointConfiguration.SendFailedMessagesTo()' code configuration API instead.");
+                Logger.Error("Usage of the 'NServiceBus_6.Config.MessageForwardingInCaseOfFaultConfig' configuration section is discouraged and will be removed with the next major version. Use the 'endpointConfiguration.SendFailedMessagesTo()' code configuration API instead.");
             }
         }
 
@@ -114,7 +114,7 @@
         {
             if (msmqSubscriptionStorageConfig != null)
             {
-                Logger.Error("Usage of the 'NServiceBus.Config.MsmqSubscriptionStorageConfig' configuration section is discouraged and will be removed with the next major version. Use the 'endpointConfiguration.UsePersistence<MsmqPersistence>().SubscriptionQueue()' code configuration API instead.");
+                Logger.Error("Usage of the 'NServiceBus_6.Config.MsmqSubscriptionStorageConfig' configuration section is discouraged and will be removed with the next major version. Use the 'endpointConfiguration.UsePersistence<MsmqPersistence>().SubscriptionQueue()' code configuration API instead.");
             }
         }
 

@@ -1,4 +1,4 @@
-namespace NServiceBus.Settings
+namespace NServiceBus_6.Settings
 {
     using System;
     using System.Collections.Concurrent;

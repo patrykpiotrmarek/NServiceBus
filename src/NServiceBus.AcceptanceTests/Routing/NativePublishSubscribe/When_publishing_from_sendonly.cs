@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.AcceptanceTests.Routing.NativePublishSubscribe
+﻿namespace NServiceBus_6.AcceptanceTests.Routing.NativePublishSubscribe
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus;
+    using NServiceBus_6;
     using NUnit.Framework;
 
     public class When_publishing_from_sendonly : NServiceBusAcceptanceTest

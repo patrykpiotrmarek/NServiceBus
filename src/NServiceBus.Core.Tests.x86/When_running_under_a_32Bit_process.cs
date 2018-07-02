@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.x32
+﻿namespace NServiceBus_6.Core.Tests.x32
 {
     using System.Linq;
     using Hosting.Helpers;

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>NServiceBus.Testing.Fakes.Sources</id>
+    <id>NServiceBus_6.Testing.Fakes.Sources</id>
     <title>Source only package containing fake implementations of various NServiceBus components for unit tests</title>
     <version>$version$</version>
     <authors>$authors$</authors>
@@ -14,7 +14,7 @@
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
     <dependencies>
-      <dependency id="NServiceBus" version="$version$" />
+      <dependency id="NServiceBus_6" version="$version$" />
     </dependencies>
   </metadata>
   <files>

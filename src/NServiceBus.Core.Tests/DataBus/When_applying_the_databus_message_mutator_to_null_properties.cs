@@ -1,9 +1,9 @@
-namespace NServiceBus.Core.Tests.DataBus
+namespace NServiceBus_6.Core.Tests.DataBus
 {
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;
     using System.Threading.Tasks;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Testing;
 

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Msmq
+﻿namespace NServiceBus_6.Core.Tests.Msmq
 {
     using System.Messaging;
     using System.Threading.Tasks;
@@ -9,7 +9,7 @@
 
     public class MsmqSubscriptionStorageIntegrationTests
     {
-        const string testQueueName = "NServiceBus.Core.Tests.MsmqSubscriptionStorageIntegrationTests";
+        const string testQueueName = "NServiceBus_6.Core.Tests.MsmqSubscriptionStorageIntegrationTests";
 
         [SetUp]
         public void Setup()

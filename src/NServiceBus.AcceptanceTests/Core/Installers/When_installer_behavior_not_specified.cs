@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Installers
+﻿namespace NServiceBus_6.AcceptanceTests.Installers
 {
     using System.Diagnostics;
     using System.Threading.Tasks;

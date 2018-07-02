@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Conventions
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Conventions
 {
     using System;
     using System.Threading.Tasks;

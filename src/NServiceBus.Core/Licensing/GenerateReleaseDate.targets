@@ -22,7 +22,7 @@
 
         GeneratedFilePath = Path.Combine(IntermediateOutputPath, "ReleaseDate.g.cs");
 
-        File.WriteAllText(GeneratedFilePath, String.Format("[assembly: NServiceBus.ReleaseDate(\"{0}\", \"{1}\")]", currentMinorCommitDate, LatestCommitDate));
+        File.WriteAllText(GeneratedFilePath, String.Format("[assembly: NServiceBus_6.ReleaseDate(\"{0}\", \"{1}\")]", currentMinorCommitDate, LatestCommitDate));
         ]]>
       </Code>
     </Task>

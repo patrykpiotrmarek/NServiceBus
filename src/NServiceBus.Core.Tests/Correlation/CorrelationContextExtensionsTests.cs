@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Correlation
+﻿namespace NServiceBus_6.Core.Tests.Correlation
 {
     using NUnit.Framework;
 

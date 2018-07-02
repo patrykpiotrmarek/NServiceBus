@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>NServiceBus.TransportTests.Sources</id>
+    <id>NServiceBus_6.TransportTests.Sources</id>
     <title>Source only package containing the NServiceBus transport seam test suite</title>
     <version>$version$</version>
     <authors>$authors$</authors>
@@ -15,7 +15,7 @@
     <copyright>$copyright$</copyright>
     <tags>$tags$</tags>
     <dependencies>
-      <dependency id="NServiceBus" version="$version$" />
+      <dependency id="NServiceBus_6" version="$version$" />
       <dependency id="NUnit" version="[3.6.1, 4.0.0)" />
     </dependencies>
   <frameworkAssemblies>

@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.UnitOfWork
+﻿namespace NServiceBus_6.AcceptanceTests.Core.UnitOfWork
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.UnitOfWork;
+    using NServiceBus_6.UnitOfWork;
     using NUnit.Framework;
 
     public class When_a_subscription_message_arrives : NServiceBusAcceptanceTest

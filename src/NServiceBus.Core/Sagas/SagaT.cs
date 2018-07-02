@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     /// <summary>
     /// This class is used to define sagas containing data and handling a message.

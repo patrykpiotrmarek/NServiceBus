@@ -1,4 +1,4 @@
-namespace NServiceBus.Config.ConfigurationSource
+namespace NServiceBus_6.Config.ConfigurationSource
 {
     /// <summary>
     /// Abstraction of a source of configuration data.

@@ -1,4 +1,4 @@
-namespace NServiceBus.Extensibility
+namespace NServiceBus_6.Extensibility
 {
     /// <summary>
     /// Provides hidden access to the extension context.

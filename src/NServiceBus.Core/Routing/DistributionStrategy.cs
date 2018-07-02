@@ -1,4 +1,4 @@
-namespace NServiceBus.Routing
+namespace NServiceBus_6.Routing
 {
     /// <summary>
     /// Determines which instance of a given endpoint a message is to be sent.

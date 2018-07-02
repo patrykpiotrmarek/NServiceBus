@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Routing.MessageDrivenSubscriptions
+﻿namespace NServiceBus_6.Core.Tests.Routing.MessageDrivenSubscriptions
 {
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Routing;
-    using NServiceBus.Routing.MessageDrivenSubscriptions;
+    using NServiceBus_6.Routing;
+    using NServiceBus_6.Routing.MessageDrivenSubscriptions;
     using NUnit.Framework;
 
     [TestFixture]

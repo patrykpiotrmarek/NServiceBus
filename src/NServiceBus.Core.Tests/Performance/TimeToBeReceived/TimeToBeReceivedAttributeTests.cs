@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Performance.TimeToBeReceived
+﻿namespace NServiceBus_6.Core.Tests.Performance.TimeToBeReceived
 {
     using System;
     using NUnit.Framework;

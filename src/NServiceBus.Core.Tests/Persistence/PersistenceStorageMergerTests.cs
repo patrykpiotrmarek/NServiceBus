@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Core.Tests.Persistence
+﻿namespace NServiceBus_6.Core.Tests.Persistence
 {
     using System;
     using System.Collections.Generic;
-    using NServiceBus.Persistence;
+    using NServiceBus_6.Persistence;
     using Settings;
     using NUnit.Framework;
 

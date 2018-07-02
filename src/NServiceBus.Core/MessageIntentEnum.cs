@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     /// <summary>
     /// Enumeration defining different kinds of message intent like Send and Publish.

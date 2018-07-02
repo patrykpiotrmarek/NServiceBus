@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -7,7 +7,7 @@ namespace NServiceBus
     /// </summary>
     [Serializable]
     [ObsoleteEx(
-        Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+        Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
         RemoveInVersion = "8",
         TreatAsErrorFromVersion = "7")]
     public class EncryptedValue
@@ -16,7 +16,7 @@ namespace NServiceBus
         /// The encrypted value represented as a Base64 string.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public string EncryptedBase64Value { get; set; }
@@ -25,7 +25,7 @@ namespace NServiceBus
         /// The initialization vector represented as a Base64 string.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public string Base64Iv { get; set; }

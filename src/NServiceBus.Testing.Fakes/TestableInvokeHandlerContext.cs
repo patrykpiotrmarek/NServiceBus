@@ -1,5 +1,5 @@
 ﻿// ReSharper disable PartialTypeWithSinglePart
-namespace NServiceBus.Testing
+namespace NServiceBus_6.Testing
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
@@ -55,7 +55,7 @@ namespace NServiceBus.Testing
         public SynchronizedStorageSession SynchronizedStorageSession { get; set; }
 
         /// <summary>
-        /// The current <see cref="T:NServiceBus.IHandleMessages`1" /> being executed.
+        /// The current <see cref="T:NServiceBus_6.IHandleMessages`1" /> being executed.
         /// </summary>
         public MessageHandler MessageHandler { get; set; } = new MessageHandler((instance, message, context) => Task.FromResult(0), typeof(object));
 
@@ -71,8 +71,8 @@ namespace NServiceBus.Testing
 
         /// <summary>
         /// <code>true</code> if
-        /// <see cref="M:NServiceBus.IMessageHandlerContext.DoNotContinueDispatchingCurrentMessageToHandlers" /> or
-        /// <see cref="M:NServiceBus.IMessageHandlerContext.HandleCurrentMessageLater" /> has been called.
+        /// <see cref="M:NServiceBus_6.IMessageHandlerContext.DoNotContinueDispatchingCurrentMessageToHandlers" /> or
+        /// <see cref="M:NServiceBus_6.IMessageHandlerContext.HandleCurrentMessageLater" /> has been called.
         /// </summary>
         public bool HandlerInvocationAborted => DoNotContinueDispatchingCurrentMessageToHandlersWasCalled || HandleCurrentMessageLaterWasCalled;
 

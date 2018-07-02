@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System;
     using System.Linq;
     using System.Security.Principal;
     using System.Threading.Tasks;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_starting_up_the_endpoint : NServiceBusAcceptanceTest

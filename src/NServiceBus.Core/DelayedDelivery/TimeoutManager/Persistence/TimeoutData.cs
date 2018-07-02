@@ -1,4 +1,4 @@
-namespace NServiceBus.Timeout.Core
+namespace NServiceBus_6.Timeout.Core
 {
     using System;
     using System.Collections.Generic;

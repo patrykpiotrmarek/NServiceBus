@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     using System.Linq;
     using System.Threading.Tasks;

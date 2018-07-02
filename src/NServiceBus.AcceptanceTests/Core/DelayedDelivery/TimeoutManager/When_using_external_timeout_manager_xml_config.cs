@@ -1,6 +1,6 @@
 ﻿// disable obsolete warnings. Tests will be removed in next major version
 #pragma warning disable CS0618
-namespace NServiceBus.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
+namespace NServiceBus_6.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
 {
     using System;
     using System.Threading.Tasks;
@@ -8,7 +8,7 @@ namespace NServiceBus.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
     using Features;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     public class When_using_external_timeout_manager_xml_config : NServiceBusAcceptanceTest

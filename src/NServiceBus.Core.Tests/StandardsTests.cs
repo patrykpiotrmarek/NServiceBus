@@ -1,13 +1,13 @@
-﻿namespace NServiceBus.Core.Tests
+﻿namespace NServiceBus_6.Core.Tests
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
     using System.Runtime.CompilerServices;
-    using NServiceBus.Features;
-    using NServiceBus.Logging;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Features;
+    using NServiceBus_6.Logging;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     [TestFixture]
@@ -18,7 +18,7 @@
         {
             foreach (var featureType in GetFeatures())
             {
-                Assert.AreEqual("NServiceBus.Features", featureType.Namespace, "Features should be in the NServiceBus.Features namespace. " + featureType.FullName);
+                Assert.AreEqual("NServiceBus_6.Features", featureType.Namespace, "Features should be in the NServiceBus_6.Features namespace. " + featureType.FullName);
                 Assert.IsFalse(featureType.Name.EndsWith("Feature"), "Features should not be suffixed with 'Feature'. " + featureType.FullName);
                 if (featureType.IsPublic)
                 {
@@ -45,12 +45,12 @@
                     !x.FullName.StartsWith("Autofac") &&
                     x.Name != "GitVersionInformation" &&
                     x.Namespace != "Particular.Licensing" &&
-                    x.Namespace != "NServiceBus.Features" &&
+                    x.Namespace != "NServiceBus_6.Features" &&
                     x.Name != "ProcessedByFody" &&
-                    x.Namespace != "NServiceBus").ToList();
+                    x.Namespace != "NServiceBus_6").ToList();
             if (types.Count > 0)
             {
-                Assert.IsEmpty(types, "Non public types should have 'NServiceBus' namespace\r\n" + string.Join(Environment.NewLine, types.Select(x => x.FullName)));
+                Assert.IsEmpty(types, "Non public types should have 'NServiceBus_6' namespace\r\n" + string.Join(Environment.NewLine, types.Select(x => x.FullName)));
             }
         }
 
@@ -85,7 +85,7 @@
             foreach (var featureType in GetBehaviors())
             {
                 Assert.IsFalse(featureType.IsPublic, "Behaviors should internal " + featureType.FullName);
-                Assert.AreEqual("NServiceBus", featureType.Namespace, "Behaviors should be in the NServiceBus namespace since it reduces the 'wall of text' problem when looking at pipeline stack traces. " + featureType.FullName);
+                Assert.AreEqual("NServiceBus_6", featureType.Namespace, "Behaviors should be in the NServiceBus_6 namespace since it reduces the 'wall of text' problem when looking at pipeline stack traces. " + featureType.FullName);
                 Assert.IsTrue(featureType.Name.EndsWith("Terminator") || featureType.Name.EndsWith("Behavior") || featureType.Name.EndsWith("Connector"), "Behaviors should be suffixed with 'Behavior' or 'Connector'. " + featureType.FullName);
             }
         }

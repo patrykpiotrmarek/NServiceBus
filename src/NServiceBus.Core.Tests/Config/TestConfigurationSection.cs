@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests.Config
+namespace NServiceBus_6.Core.Tests.Config
 {
     using System.Configuration;
 

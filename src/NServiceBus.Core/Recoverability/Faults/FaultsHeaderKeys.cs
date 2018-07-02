@@ -1,4 +1,4 @@
-namespace NServiceBus.Faults
+namespace NServiceBus_6.Faults
 {
     /// <summary>
     /// Class holding keys to message headers for faults.

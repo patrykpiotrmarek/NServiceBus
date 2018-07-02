@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.AssemblyScanner
+﻿namespace NServiceBus_6.Core.Tests.AssemblyScanner
 {
     using System.IO;
     using NUnit.Framework;

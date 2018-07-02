@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Sagas
+﻿namespace NServiceBus_6.Core.Tests.Sagas
 {
-    using NServiceBus.Pipeline;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Pipeline;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
     using System.Threading.Tasks;
     using Testing;

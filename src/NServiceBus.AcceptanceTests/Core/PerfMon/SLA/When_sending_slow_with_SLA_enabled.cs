@@ -1,6 +1,6 @@
 ﻿// disable obsolete warnings. Tests will be removed in next major version
 #pragma warning disable CS0618
-namespace NServiceBus.AcceptanceTests.Core.PerfMon.SLA
+namespace NServiceBus_6.AcceptanceTests.Core.PerfMon.SLA
 {
     using System;
     using System.Diagnostics;

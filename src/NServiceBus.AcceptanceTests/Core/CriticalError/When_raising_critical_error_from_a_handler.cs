@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.CriticalError
+﻿namespace NServiceBus_6.AcceptanceTests.Core.CriticalError
 {
     using System;
     using System.Collections.Concurrent;
@@ -7,7 +7,7 @@
     using EndpointTemplates;
     using Features;
     using NUnit.Framework;
-    using CriticalError = NServiceBus.CriticalError;
+    using CriticalError = NServiceBus_6.CriticalError;
 
     public class When_raising_critical_error_from_a_handler : NServiceBusAcceptanceTest
     {

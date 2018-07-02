@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Conventions
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Conventions
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
     using NUnit.Framework;
-    using Conventions = NServiceBus.Conventions;
+    using Conventions = NServiceBus_6.Conventions;
 
     public class When_using_a_greedy_convention : NServiceBusAcceptanceTest
     {

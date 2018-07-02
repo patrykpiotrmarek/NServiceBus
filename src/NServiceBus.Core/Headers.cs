@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     /// <summary>
     /// Static class containing headers used by NServiceBus.

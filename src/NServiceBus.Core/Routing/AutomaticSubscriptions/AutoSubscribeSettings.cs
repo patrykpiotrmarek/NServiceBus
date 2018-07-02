@@ -1,4 +1,4 @@
-namespace NServiceBus.AutomaticSubscriptions.Config
+namespace NServiceBus_6.AutomaticSubscriptions.Config
 {
     using Features;
 

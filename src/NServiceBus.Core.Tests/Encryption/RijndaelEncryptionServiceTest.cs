@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Core.Tests.Encryption
+﻿namespace NServiceBus_6.Core.Tests.Encryption
 {
     using System;
     using System.Collections.Generic;
     using System.Security.Cryptography;
     using System.Text;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     [TestFixture]

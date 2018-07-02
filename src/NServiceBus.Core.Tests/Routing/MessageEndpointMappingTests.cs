@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.Core.Tests.Routing
+﻿namespace NServiceBus_6.Core.Tests.Routing
 {
     using System.Reflection;
     using MessageNamespaceA;
     using MessageNamespaceB;
-    using NServiceBus.Config;
-    using NServiceBus.Routing;
-    using NServiceBus.Routing.MessageDrivenSubscriptions;
+    using NServiceBus_6.Config;
+    using NServiceBus_6.Routing;
+    using NServiceBus_6.Routing.MessageDrivenSubscriptions;
     using NUnit.Framework;
 
     [TestFixture]

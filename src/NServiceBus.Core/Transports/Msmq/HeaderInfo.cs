@@ -1,4 +1,4 @@
-namespace NServiceBus.Transport.Msmq
+namespace NServiceBus_6.Transport.Msmq
 {
     using System;
 

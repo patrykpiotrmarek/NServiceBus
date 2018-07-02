@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     /// <summary>
     /// Extension methods for manipulating the message Correlation Id.
@@ -43,7 +43,7 @@
 
         /// <summary>
         /// Retrieves the correlation id specified by the user by using
-        /// <see cref="SetCorrelationId(NServiceBus.SendOptions,string)" />.
+        /// <see cref="SetCorrelationId(NServiceBus_6.SendOptions,string)" />.
         /// </summary>
         /// <param name="options">Options being extended.</param>
         /// <returns>The configured correlation id or <c>null</c> when no correlation id was configured.</returns>
@@ -63,7 +63,7 @@
 
         /// <summary>
         /// Retrieves the correlation id specified by the user by using
-        /// <see cref="SetCorrelationId(NServiceBus.ReplyOptions,string)" />.
+        /// <see cref="SetCorrelationId(NServiceBus_6.ReplyOptions,string)" />.
         /// </summary>
         /// <param name="options">Options being extended.</param>
         /// <returns>The configured correlation id or <c>null</c> when no correlation id was configured.</returns>

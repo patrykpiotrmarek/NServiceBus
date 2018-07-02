@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Reliability.Outbox
+﻿namespace NServiceBus_6.Core.Tests.Reliability.Outbox
 {
     using System;
     using System.Collections.Generic;
@@ -6,10 +6,10 @@
     using System.Threading.Tasks;
     using DelayedDelivery;
     using DeliveryConstraints;
-    using NServiceBus.Outbox;
-    using NServiceBus.Performance.TimeToBeReceived;
-    using NServiceBus.Pipeline;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Outbox;
+    using NServiceBus_6.Performance.TimeToBeReceived;
+    using NServiceBus_6.Pipeline;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Testing;
     using Transport;
@@ -35,7 +35,7 @@
 
             fakeOutbox.ExistingMessage = new OutboxMessage(messageId, new[]
             {
-                new NServiceBus.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
+                new NServiceBus_6.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
             });
 
             var context = CreateContext(fakeBatchPipeline, messageId);
@@ -72,7 +72,7 @@
 
             fakeOutbox.ExistingMessage = new OutboxMessage(messageId, new[]
             {
-                new NServiceBus.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
+                new NServiceBus_6.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
             });
 
             var context = CreateContext(fakeBatchPipeline, messageId);
@@ -96,7 +96,7 @@
 
             fakeOutbox.ExistingMessage = new OutboxMessage(messageId, new[]
             {
-                new NServiceBus.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
+                new NServiceBus_6.Outbox.TransportOperation("x", options, new byte[0], new Dictionary<string, string>())
             });
 
             var context = CreateContext(fakeBatchPipeline, messageId);

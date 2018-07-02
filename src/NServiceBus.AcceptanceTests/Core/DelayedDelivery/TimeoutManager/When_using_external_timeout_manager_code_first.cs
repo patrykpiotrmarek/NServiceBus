@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
+﻿namespace NServiceBus_6.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
 {
     using System;
     using System.Threading.Tasks;
@@ -6,7 +6,7 @@
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
     using Features;
-    using NServiceBus.DelayedDelivery;
+    using NServiceBus_6.DelayedDelivery;
     using NUnit.Framework;
 
     public class When_using_external_timeout_manager_code_first : NServiceBusAcceptanceTest

@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests.Timeout
+namespace NServiceBus_6.Core.Tests.Timeout
 {
     using System.Threading.Tasks;
     using Extensibility;

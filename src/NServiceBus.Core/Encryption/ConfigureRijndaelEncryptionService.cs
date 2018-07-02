@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -18,8 +18,8 @@ namespace NServiceBus
         /// </summary>
         /// <param name="config">The <see cref="EndpointConfiguration" /> instance to apply the settings to.</param>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
-            ReplacementTypeOrMember = "NServiceBus.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
+            ReplacementTypeOrMember = "NServiceBus_6.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public static void RijndaelEncryptionService(this EndpointConfiguration config)
@@ -101,8 +101,8 @@ namespace NServiceBus
         /// <param name="encryptionKey">Encryption Key.</param>
         /// <param name="decryptionKeys">A list of decryption keys.</param>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
-            ReplacementTypeOrMember = "NServiceBus.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
+            ReplacementTypeOrMember = "NServiceBus_6.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public static void RijndaelEncryptionService(this EndpointConfiguration config, string encryptionKeyIdentifier, byte[] encryptionKey, IList<byte[]> decryptionKeys = null)
@@ -126,8 +126,8 @@ namespace NServiceBus
         /// Use 256 bit AES encryption based on the Rijndael cipher.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
-            ReplacementTypeOrMember = "NServiceBus.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
+            ReplacementTypeOrMember = "NServiceBus_6.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public static void RijndaelEncryptionService(this EndpointConfiguration config, string encryptionKeyIdentifier, IDictionary<string, byte[]> keys, IList<byte[]> decryptionKeys = null)
@@ -182,8 +182,8 @@ namespace NServiceBus
         /// encryption.
         /// </param>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
-            ReplacementTypeOrMember = "NServiceBus.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
+            ReplacementTypeOrMember = "NServiceBus_6.Encryption.MessageProperty.EncryptionConfigurationExtensions.EnableMessagePropertyEncryption",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public static void RegisterEncryptionService(this EndpointConfiguration config, Func<IEncryptionService> func)

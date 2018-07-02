@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Routing.FileBasedDynamicRouting
+﻿namespace NServiceBus_6.Core.Tests.Routing.FileBasedDynamicRouting
 {
     using System;
-    using NServiceBus.Features;
+    using NServiceBus_6.Features;
     using NUnit.Framework;
     using Settings;
 

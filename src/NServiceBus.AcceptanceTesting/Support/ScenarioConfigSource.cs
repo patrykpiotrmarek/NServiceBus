@@ -1,5 +1,5 @@
 ﻿#pragma warning disable CS0618
-namespace NServiceBus.AcceptanceTesting.Support
+namespace NServiceBus_6.AcceptanceTesting.Support
 {
     using System.Configuration;
     using Config.ConfigurationSource;

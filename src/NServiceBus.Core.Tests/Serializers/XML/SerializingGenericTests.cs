@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Serializers.XML
+﻿namespace NServiceBus_6.Core.Tests.Serializers.XML
 {
     using System;
-    using NServiceBus.Serializers.XML.Test;
+    using NServiceBus_6.Serializers.XML.Test;
     using NUnit.Framework;
 
     public class GenericMessage<T1, T2>

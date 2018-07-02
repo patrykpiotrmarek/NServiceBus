@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.Core.Tests.Msmq
+﻿namespace NServiceBus_6.Core.Tests.Msmq
 {
     using System;
     using System.Collections.Generic;
     using System.Messaging;
     using DeliveryConstraints;
     using Extensibility;
-    using NServiceBus.Performance.TimeToBeReceived;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Performance.TimeToBeReceived;
+    using NServiceBus_6.Routing;
     using Transport;
     using NUnit.Framework;
 

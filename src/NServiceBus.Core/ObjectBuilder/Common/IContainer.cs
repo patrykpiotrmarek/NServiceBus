@@ -1,4 +1,4 @@
-namespace NServiceBus.ObjectBuilder.Common
+namespace NServiceBus_6.ObjectBuilder.Common
 {
     using System;
     using System.Collections.Generic;

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using NServiceBus;
-using NServiceBus.AcceptanceTesting.Support;
-using NServiceBus.Persistence;
+using NServiceBus_6;
+using NServiceBus_6.AcceptanceTesting.Support;
+using NServiceBus_6.Persistence;
 
 public class ConfigureEndpointLearningPersistence : IConfigureEndpointTestExecution
 {

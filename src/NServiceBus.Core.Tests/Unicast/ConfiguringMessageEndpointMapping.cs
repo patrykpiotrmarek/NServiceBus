@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Unicast.Tests.Messages
+﻿namespace NServiceBus_6.Unicast.Tests.Messages
 {
     public class MessageE : IMessage
     {
@@ -9,7 +9,7 @@
     }
 }
 
-namespace NServiceBus.Unicast.Tests
+namespace NServiceBus_6.Unicast.Tests
 {
     using System;
     using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace NServiceBus.Unicast.Tests
     using Messages;
     using Messages.ANamespace;
     using Messages.ANamespace.ASubNamespace;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     public class Configuring_message_endpoint_mapping
@@ -51,7 +51,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_map_all_the_types_in_the_assembly()
         {
-            ConfigureShouldMapTypes(m => m.Messages = "NServiceBus.Core.Tests",
+            ConfigureShouldMapTypes(m => m.Messages = "NServiceBus_6.Core.Tests",
                 typeof(MessageA), typeof(MessageB), typeof(MessageC), typeof(MessageD));
         }
     }
@@ -62,7 +62,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_fail()
         {
-            Assert.That(() => Configure(m => m.Messages = "NServiceBus.Unicast.Tests.MessagesThatDoesNotExist"), Throws.ArgumentException);
+            Assert.That(() => Configure(m => m.Messages = "NServiceBus_6.Unicast.Tests.MessagesThatDoesNotExist"), Throws.ArgumentException);
         }
     }
 
@@ -72,7 +72,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_only_map_the_type()
         {
-            ConfigureShouldMapTypes(m => m.Messages = "NServiceBus.Unicast.Tests.Messages.MessageA, NServiceBus.Core.Tests", typeof(MessageA));
+            ConfigureShouldMapTypes(m => m.Messages = "NServiceBus_6.Unicast.Tests.Messages.MessageA, NServiceBus_6.Core.Tests", typeof(MessageA));
         }
     }
 
@@ -82,7 +82,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_fail()
         {
-            Assert.That(() => Configure(m => m.Messages = "NServiceBus.Unicast.Tests.Messages.MessageThatDoesNotExist, NServiceBus.Core.Tests"), Throws.ArgumentException);
+            Assert.That(() => Configure(m => m.Messages = "NServiceBus_6.Unicast.Tests.Messages.MessageThatDoesNotExist, NServiceBus_6.Core.Tests"), Throws.ArgumentException);
         }
     }
 
@@ -92,7 +92,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_map_all_the_types_in_the_assembly()
         {
-            ConfigureShouldMapTypes(m => m.AssemblyName = "NServiceBus.Core.Tests",
+            ConfigureShouldMapTypes(m => m.AssemblyName = "NServiceBus_6.Core.Tests",
                 typeof(MessageA), typeof(MessageB), typeof(MessageC), typeof(MessageD));
         }
     }
@@ -103,7 +103,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_fail()
         {
-            Assert.That(() => Configure(m => m.AssemblyName = "NServiceBus.Unicast.Tests.MessagesThatDoesNotExist"), Throws.ArgumentException);
+            Assert.That(() => Configure(m => m.AssemblyName = "NServiceBus_6.Unicast.Tests.MessagesThatDoesNotExist"), Throws.ArgumentException);
         }
     }
 
@@ -113,7 +113,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_only_map_the_type()
         {
-            ConfigureShouldMapTypes(m => { m.AssemblyName = "NServiceBus.Core.Tests"; m.TypeFullName = "NServiceBus.Unicast.Tests.Messages.MessageA"; }, typeof(MessageA));
+            ConfigureShouldMapTypes(m => { m.AssemblyName = "NServiceBus_6.Core.Tests"; m.TypeFullName = "NServiceBus_6.Unicast.Tests.Messages.MessageA"; }, typeof(MessageA));
         }
     }
 
@@ -123,7 +123,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_fail()
         {
-            Assert.That(() => Configure(m => { m.AssemblyName = "NServiceBus.Core.Tests"; m.TypeFullName = "NServiceBus.Unicast.Tests.Messages.MessageThatDoesNotExist"; }), Throws.ArgumentException);
+            Assert.That(() => Configure(m => { m.AssemblyName = "NServiceBus_6.Core.Tests"; m.TypeFullName = "NServiceBus_6.Unicast.Tests.Messages.MessageThatDoesNotExist"; }), Throws.ArgumentException);
         }
     }
 
@@ -133,7 +133,7 @@ namespace NServiceBus.Unicast.Tests
         [Test]
         public void Should_only_map_the_types_directly_in_the_namespace()
         {
-            ConfigureShouldMapTypes(m => { m.AssemblyName = "NServiceBus.Core.Tests"; m.Namespace = "NServiceBus.Unicast.Tests.Messages.ANamespace"; }, typeof(MessageC));
+            ConfigureShouldMapTypes(m => { m.AssemblyName = "NServiceBus_6.Core.Tests"; m.Namespace = "NServiceBus_6.Unicast.Tests.Messages.ANamespace"; }, typeof(MessageC));
         }
     }
 }

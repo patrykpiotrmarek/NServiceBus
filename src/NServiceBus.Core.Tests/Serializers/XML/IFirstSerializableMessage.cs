@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Serializers.XML
+﻿namespace NServiceBus_6.Serializers.XML
 {
     using System;
 

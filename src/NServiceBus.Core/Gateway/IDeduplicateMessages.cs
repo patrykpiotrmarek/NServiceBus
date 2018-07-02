@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Gateway.Deduplication
+﻿namespace NServiceBus_6.Gateway.Deduplication
 {
     using System;
     using System.Threading.Tasks;

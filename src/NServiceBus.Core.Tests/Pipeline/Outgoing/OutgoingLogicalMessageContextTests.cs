@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline.Outgoing
+﻿namespace NServiceBus_6.Core.Tests.Pipeline.Outgoing
 {
     using System;
     using System.Collections.Generic;
     using System.Reflection;
     using MessageInterfaces.MessageMapper.Reflection;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     [TestFixture]

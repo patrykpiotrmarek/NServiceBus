@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Encryption.Tests
+﻿namespace NServiceBus_6.Encryption.Tests
 {
     using Core.Tests.Encryption;
     using NUnit.Framework;

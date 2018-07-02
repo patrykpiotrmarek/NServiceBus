@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Transports
+﻿namespace NServiceBus_6.Core.Tests.Transports
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using Transport;
     using NUnit.Framework;
 

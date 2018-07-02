@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline
+﻿namespace NServiceBus_6.Core.Tests.Pipeline
 {
     using System;
     using System.Threading.Tasks;

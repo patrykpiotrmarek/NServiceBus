@@ -1,13 +1,13 @@
-﻿namespace NServiceBus.Core.Tests.Routing.MessageDrivenSubscriptions
+﻿namespace NServiceBus_6.Core.Tests.Routing.MessageDrivenSubscriptions
 {
-    using NServiceBus;
+    using NServiceBus_6;
     using System;
     using System.Linq;
     using System.Reflection;
     using EventNamespace;
     using MessageNameSpace;
-    using NServiceBus.Routing;
-    using NServiceBus.Routing.MessageDrivenSubscriptions;
+    using NServiceBus_6.Routing;
+    using NServiceBus_6.Routing.MessageDrivenSubscriptions;
     using NUnit.Framework;
     using OtherMesagenameSpace;
     using Settings;
@@ -168,19 +168,19 @@
 
 namespace EventNamespace
 {
-    using NServiceBus;
+    using NServiceBus_6;
     class EventWithNamespace : IEvent
     {
     }
 }
 
-class Event : NServiceBus.IEvent
+class Event : NServiceBus_6.IEvent
 {
 }
 
 namespace MessageNameSpace
 {
-    using NServiceBus;
+    using NServiceBus_6;
 
     interface IMessageInterface : IEvent
     {
@@ -200,6 +200,6 @@ namespace OtherMesagenameSpace
     }
 }
 
-class EventWithoutNamespace : NServiceBus.IEvent
+class EventWithoutNamespace : NServiceBus_6.IEvent
 {
 }

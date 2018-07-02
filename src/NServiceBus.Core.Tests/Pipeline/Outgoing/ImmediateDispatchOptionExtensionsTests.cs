@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline.Outgoing
+﻿namespace NServiceBus_6.Core.Tests.Pipeline.Outgoing
 {
     using NUnit.Framework;
 

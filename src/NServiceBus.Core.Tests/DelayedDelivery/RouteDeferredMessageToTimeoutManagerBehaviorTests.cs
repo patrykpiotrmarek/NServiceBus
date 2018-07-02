@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Timeout
+﻿namespace NServiceBus_6.Core.Tests.Timeout
 {
     using System;
     using System.Collections.Generic;
@@ -6,8 +6,8 @@
     using System.Threading.Tasks;
     using DelayedDelivery;
     using DeliveryConstraints;
-    using NServiceBus.Performance.TimeToBeReceived;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Performance.TimeToBeReceived;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Testing;
 

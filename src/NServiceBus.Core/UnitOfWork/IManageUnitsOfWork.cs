@@ -1,4 +1,4 @@
-namespace NServiceBus.UnitOfWork
+namespace NServiceBus_6.UnitOfWork
 {
     using System;
     using System.Threading.Tasks;

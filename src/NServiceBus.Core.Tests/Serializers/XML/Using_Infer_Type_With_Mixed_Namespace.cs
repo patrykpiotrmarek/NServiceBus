@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Serializers.XML
+﻿namespace NServiceBus_6.Core.Tests.Serializers.XML
 {
     using System.IO;
-    using NServiceBus.Serializers.XML.Test;
+    using NServiceBus_6.Serializers.XML.Test;
     using NUnit.Framework;
 
     [TestFixture]
@@ -41,7 +41,7 @@
 
 namespace NameSpace1
 {
-    using NServiceBus;
+    using NServiceBus_6;
 
     public interface IMyBusMessage : IMessage
     {

@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Routing
+﻿namespace NServiceBus_6.Core.Tests.Routing
 {
     using System.Linq;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
 
     [TestFixture]

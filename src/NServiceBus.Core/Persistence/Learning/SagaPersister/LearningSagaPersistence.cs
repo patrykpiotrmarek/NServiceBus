@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Features
+﻿namespace NServiceBus_6.Features
 {
     using System;
     using System.IO;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
 
     class LearningSagaPersistence : Feature
     {

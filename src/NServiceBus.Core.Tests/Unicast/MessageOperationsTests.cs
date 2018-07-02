@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Unicast.Tests
+﻿namespace NServiceBus_6.Unicast.Tests
 {
     using System;
     using System.Collections.Generic;
@@ -8,9 +8,9 @@
     using NUnit.Framework;
     using Pipeline;
     using Testing;
-    using PublishOptions = NServiceBus.PublishOptions;
-    using ReplyOptions = NServiceBus.ReplyOptions;
-    using SendOptions = NServiceBus.SendOptions;
+    using PublishOptions = NServiceBus_6.PublishOptions;
+    using ReplyOptions = NServiceBus_6.ReplyOptions;
+    using SendOptions = NServiceBus_6.SendOptions;
 
     [TestFixture]
     public class MessageOperationsTests

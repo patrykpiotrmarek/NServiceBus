@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests.Distributor
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests.Distributor
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using Features;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using ObjectBuilder;
     using Pipeline;
     using Routing.Legacy;

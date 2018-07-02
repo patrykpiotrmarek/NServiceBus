@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.FakeTransport
+﻿namespace NServiceBus_6.AcceptanceTests.Core.FakeTransport
 {
     using Settings;
     using Transport;

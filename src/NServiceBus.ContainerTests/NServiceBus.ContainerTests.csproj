@@ -8,8 +8,8 @@
     <ProjectGuid>{0A282BF4-0957-4074-8D5E-C2FB8634A3AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NServiceBus.ContainerTests</RootNamespace>
-    <AssemblyName>NServiceBus.ContainerTests</AssemblyName>
+    <RootNamespace>NServiceBus_6.ContainerTests</RootNamespace>
+    <AssemblyName>NServiceBus_6.ContainerTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

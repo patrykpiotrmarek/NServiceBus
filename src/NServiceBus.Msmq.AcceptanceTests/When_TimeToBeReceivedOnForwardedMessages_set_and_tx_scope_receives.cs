@@ -1,11 +1,11 @@
 ﻿#pragma warning disable CS0618
-namespace NServiceBus.Transport.Msmq.AcceptanceTests
+namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System;
     using AcceptanceTesting;
     using Config;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_TimeToBeReceivedOnForwardedMessages_set_and_tx_scope_receives : NServiceBusAcceptanceTest

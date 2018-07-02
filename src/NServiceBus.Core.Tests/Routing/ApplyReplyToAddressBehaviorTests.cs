@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Core.Tests.Routing
+﻿namespace NServiceBus_6.Core.Tests.Routing
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Testing;
     using Transport;

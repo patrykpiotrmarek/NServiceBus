@@ -1,4 +1,4 @@
-namespace NServiceBus.ObjectBuilder
+namespace NServiceBus_6.ObjectBuilder
 {
     using System;
 

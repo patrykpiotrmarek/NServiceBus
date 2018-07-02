@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.EndpointTemplates
+﻿namespace NServiceBus_6.AcceptanceTests.EndpointTemplates
 {
     using Features;
 

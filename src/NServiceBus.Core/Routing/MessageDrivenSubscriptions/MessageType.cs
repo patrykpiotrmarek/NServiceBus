@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast.Subscriptions
+namespace NServiceBus_6.Unicast.Subscriptions
 {
     using System;
     using System.Linq;

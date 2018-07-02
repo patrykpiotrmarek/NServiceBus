@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.MessageMutators.MutateInstanceMessage
+﻿namespace NServiceBus_6.Core.Tests.MessageMutators.MutateInstanceMessage
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using MessageMutator;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Testing;
     using Transport;

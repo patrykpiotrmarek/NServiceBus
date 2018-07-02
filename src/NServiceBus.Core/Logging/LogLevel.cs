@@ -1,4 +1,4 @@
-namespace NServiceBus.Logging
+namespace NServiceBus_6.Logging
 {
     /// <summary>
     /// The allowed log levels. <seealso cref="LogManager" />.

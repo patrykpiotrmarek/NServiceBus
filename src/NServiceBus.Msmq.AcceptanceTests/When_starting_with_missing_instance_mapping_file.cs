@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System;
     using System.IO;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_starting_with_missing_instance_mapping_file : NServiceBusAcceptanceTest

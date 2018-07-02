@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Persistence.InMemory
+﻿namespace NServiceBus_6.Core.Tests.Persistence.InMemory
 {
     using System;
     using System.Threading.Tasks;

@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline.Incoming
+﻿namespace NServiceBus_6.Core.Tests.Pipeline.Incoming
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using System.Transactions;
-    using NServiceBus.Pipeline;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Pipeline;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
     using Testing;
 

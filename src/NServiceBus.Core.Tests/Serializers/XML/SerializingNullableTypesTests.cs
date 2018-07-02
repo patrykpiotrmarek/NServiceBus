@@ -1,4 +1,4 @@
-namespace NServiceBus.Serializers.XML.Test
+namespace NServiceBus_6.Serializers.XML.Test
 {
     using System;
     using System.IO;
@@ -40,7 +40,7 @@ namespace NServiceBus.Serializers.XML.Test
                 var xml = reader.ReadToEnd();
 
                 var expected = XDocument.Parse(@"<?xml version=""1.0""?>
-<MessageWithNullable xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test"">
+<MessageWithNullable xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test"">
    <FirstName>FirstName</FirstName>
    <LastName>LastName</LastName>
    <EmailAddress>EmailAddress</EmailAddress>
@@ -72,7 +72,7 @@ namespace NServiceBus.Serializers.XML.Test
                 var xml = reader.ReadToEnd();
 
                 var expected = XDocument.Parse(@"<?xml version=""1.0""?>
-<MessageWithNullable xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test"">
+<MessageWithNullable xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test"">
    <FirstName>FirstName</FirstName>
    <LastName>LastName</LastName>
    <EmailAddress>EmailAddress</EmailAddress>

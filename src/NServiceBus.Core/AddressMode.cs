@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     /// <summary>
     /// Determines how the azure location behaves.

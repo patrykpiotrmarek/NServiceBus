@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.Core.Tests.Transports.Learning
+﻿namespace NServiceBus_6.Core.Tests.Transports.Learning
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Transport;
 

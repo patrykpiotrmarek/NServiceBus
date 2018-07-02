@@ -1,4 +1,4 @@
-namespace NServiceBus.Routing
+namespace NServiceBus_6.Routing
 {
     /// <summary>
     /// A destination of address routing.

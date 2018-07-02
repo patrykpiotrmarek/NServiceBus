@@ -1,7 +1,7 @@
-﻿namespace NServiceBus.Core.Tests.Serializers.XML
+﻿namespace NServiceBus_6.Core.Tests.Serializers.XML
 {
     using System.IO;
-    using NServiceBus.Serializers.XML.Test;
+    using NServiceBus_6.Serializers.XML.Test;
     using NUnit.Framework;
 
     [TestFixture]
@@ -14,8 +14,8 @@
 <Messages
     xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
     xmlns:xsd=""http://www.w3.org/2001/XMLSchema""
-    xmlns=""http://tempuri.net/NServiceBus.Core.Tests.Serializers.XML""
-    xmlns:baseType=""NServiceBus.Core.Tests.Serializers.XML.IMyBusMessage"">
+    xmlns=""http://tempuri.net/NServiceBus_6.Core.Tests.Serializers.XML""
+    xmlns:baseType=""NServiceBus_6.Core.Tests.Serializers.XML.IMyBusMessage"">
     <FirstMessage></FirstMessage>
     <SecondMessage></SecondMessage>
     <SecondMessage></SecondMessage>

@@ -1,6 +1,6 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline.Outgoing
+﻿namespace NServiceBus_6.Core.Tests.Pipeline.Outgoing
 {
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     [TestFixture]

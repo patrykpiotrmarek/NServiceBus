@@ -1,4 +1,4 @@
-namespace NServiceBus.Serializers.XML.Test
+namespace NServiceBus_6.Serializers.XML.Test
 {
     using System;
     using System.Collections;
@@ -173,8 +173,8 @@ namespace NServiceBus.Serializers.XML.Test
 <Messages
     xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
     xmlns:xsd=""http://www.w3.org/2001/XMLSchema""
-    xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test.A""
-    xmlns:q1=""http://tempuri.net/NServiceBus.Serializers.XML.Test.B"">
+    xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test.A""
+    xmlns:q1=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test.B"">
     <Command1>
         <Id>1eb17e5d-8573-49af-a5cb-76b4a602bb79</Id>
     </Command1>
@@ -202,7 +202,7 @@ namespace NServiceBus.Serializers.XML.Test
             using (var stream = new MemoryStream())
             {
                 var writer = new StreamWriter(stream);
-                writer.WriteLine("<NServiceBus.Serializers.XML.Test.MessageWithDouble><Double>23.4</Double></NServiceBus.Serializers.XML.Test.MessageWithDouble>");
+                writer.WriteLine("<NServiceBus_6.Serializers.XML.Test.MessageWithDouble><Double>23.4</Double></NServiceBus_6.Serializers.XML.Test.MessageWithDouble>");
                 writer.Flush();
                 stream.Position = 0;
 
@@ -344,7 +344,7 @@ namespace NServiceBus.Serializers.XML.Test
             var serializer = SerializerFactory.Create<EmptyMessage>();
             var msg = new EmptyMessage();
 
-            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test""></EmptyMessage>";
+            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test""></EmptyMessage>";
 
             AssertSerializedEquals(serializer, msg, expected);
         }
@@ -356,7 +356,7 @@ namespace NServiceBus.Serializers.XML.Test
             serializer.Namespace = "http://super.com";
             var msg = new EmptyMessage();
 
-            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://super.com/NServiceBus.Serializers.XML.Test""></EmptyMessage>";
+            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://super.com/NServiceBus_6.Serializers.XML.Test""></EmptyMessage>";
 
             AssertSerializedEquals(serializer, msg, expected);
         }
@@ -368,7 +368,7 @@ namespace NServiceBus.Serializers.XML.Test
             serializer.Namespace = "http://super.com///";
             var msg = new EmptyMessage();
 
-            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://super.com/NServiceBus.Serializers.XML.Test""></EmptyMessage>";
+            var expected = @"<EmptyMessage xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://super.com/NServiceBus_6.Serializers.XML.Test""></EmptyMessage>";
 
             AssertSerializedEquals(serializer, msg, expected);
         }
@@ -1104,7 +1104,7 @@ namespace NServiceBus.Serializers.XML.Test
         public void Should_be_able_to_deserialize_many_messages_of_same_type()
         {
             var xml = @"<?xml version=""1.0"" ?>
-<Messages xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test"">
+<Messages xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test"">
     <EmptyMessage>
     </EmptyMessage>
     <EmptyMessage>
@@ -1340,7 +1340,7 @@ namespace NServiceBus.Serializers.XML.Test
     }
 }
 
-namespace NServiceBus.Serializers.XML.Test.AlternateNamespace
+namespace NServiceBus_6.Serializers.XML.Test.AlternateNamespace
 {
     using System.Collections.Generic;
     using System.Linq;

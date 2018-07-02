@@ -1,11 +1,11 @@
-namespace NServiceBus.Serializers.XML.Test
+namespace NServiceBus_6.Serializers.XML.Test
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Xml;
     using MessageInterfaces.MessageMapper.Reflection;
-    using XmlMessageSerializer = NServiceBus.XmlMessageSerializer;
+    using XmlMessageSerializer = NServiceBus_6.XmlMessageSerializer;
 
     class SerializerFactory
     {

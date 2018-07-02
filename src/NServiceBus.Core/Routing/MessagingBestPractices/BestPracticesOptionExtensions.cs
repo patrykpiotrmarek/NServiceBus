@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     using Extensibility;
     using Pipeline;
@@ -18,7 +18,7 @@
         }
 
         /// <summary>
-        /// Returns whether <see cref="DoNotEnforceBestPractices(NServiceBus.Extensibility.ExtendableOptions)" /> has ben called or
+        /// Returns whether <see cref="DoNotEnforceBestPractices(NServiceBus_6.Extensibility.ExtendableOptions)" /> has ben called or
         /// not.
         /// </summary>
         /// <returns><c>true</c> if best practice enforcement has ben disabled, <c>false</c> otherwise.</returns>

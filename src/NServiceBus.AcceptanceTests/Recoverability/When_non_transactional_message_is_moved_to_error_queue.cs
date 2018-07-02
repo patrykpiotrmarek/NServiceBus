@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Recoverability
+﻿namespace NServiceBus_6.AcceptanceTests.Recoverability
 {
     using System;
     using System.Linq;
@@ -6,7 +6,7 @@
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class When_non_transactional_message_is_moved_to_error_queue : NServiceBusAcceptanceTest

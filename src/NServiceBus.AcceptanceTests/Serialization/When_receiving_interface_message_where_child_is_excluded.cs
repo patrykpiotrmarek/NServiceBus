@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Serialization
+﻿namespace NServiceBus_6.AcceptanceTests.Serialization
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;

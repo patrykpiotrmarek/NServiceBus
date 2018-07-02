@@ -1,8 +1,8 @@
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     using System;
     using System.Threading.Tasks;
-    using NServiceBus.DataBus;
+    using NServiceBus_6.DataBus;
     using Settings;
 
     /// <summary>

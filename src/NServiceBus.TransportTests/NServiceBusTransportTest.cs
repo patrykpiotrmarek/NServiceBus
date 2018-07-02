@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.TransportTests
+﻿namespace NServiceBus_6.TransportTests
 {
     using System;
     using System.Collections.Generic;

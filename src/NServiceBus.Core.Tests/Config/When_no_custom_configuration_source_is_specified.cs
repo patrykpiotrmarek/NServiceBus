@@ -1,7 +1,7 @@
-namespace NServiceBus.Core.Tests.Config
+namespace NServiceBus_6.Core.Tests.Config
 {
     using System.Threading.Tasks;
-    using NServiceBus.Features;
+    using NServiceBus_6.Features;
     using Settings;
     using NUnit.Framework;
 

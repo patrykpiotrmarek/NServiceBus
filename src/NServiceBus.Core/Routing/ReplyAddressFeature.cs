@@ -1,4 +1,4 @@
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     class ReplyAddressFeature : Feature
     {

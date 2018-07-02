@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Handlers
+﻿namespace NServiceBus_6.Core.Tests.Handlers
 {
     using System;
     using System.Linq;

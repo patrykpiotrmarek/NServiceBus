@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast.Tests.Contexts
+namespace NServiceBus_6.Unicast.Tests.Contexts
 {
     public class CommandMessage : ICommand
     {

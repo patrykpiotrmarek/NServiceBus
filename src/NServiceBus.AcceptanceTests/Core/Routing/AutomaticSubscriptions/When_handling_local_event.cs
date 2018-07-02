@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Routing.AutomaticSubscriptions
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Routing.AutomaticSubscriptions
 {
     using System;
     using System.Threading.Tasks;

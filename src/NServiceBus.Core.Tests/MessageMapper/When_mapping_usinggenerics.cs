@@ -1,7 +1,7 @@
 namespace MessageMapperTests
 {
-    using NServiceBus;
-    using NServiceBus.MessageInterfaces.MessageMapper.Reflection;
+    using NServiceBus_6;
+    using NServiceBus_6.MessageInterfaces.MessageMapper.Reflection;
     using NUnit.Framework;
 
     [TestFixture]

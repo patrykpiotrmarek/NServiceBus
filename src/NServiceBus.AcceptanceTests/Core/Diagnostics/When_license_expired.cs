@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Diagnostics
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Diagnostics
 {
     using System.Diagnostics;
     using System.Linq;

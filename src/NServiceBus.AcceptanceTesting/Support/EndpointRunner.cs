@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTesting.Support
+﻿namespace NServiceBus_6.AcceptanceTesting.Support
 {
     using System;
     using System.Collections.Generic;
@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
     using Configuration.AdvanceExtensibility;
     using Logging;
-    using NServiceBus.Support;
+    using NServiceBus_6.Support;
     using Transport;
 
     public class EndpointRunner : ComponentRunner

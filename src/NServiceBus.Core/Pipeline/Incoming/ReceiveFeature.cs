@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Features
+﻿namespace NServiceBus_6.Features
 {
     using System.Threading.Tasks;
     using Extensibility;
     using Janitor;
-    using NServiceBus.Outbox;
+    using NServiceBus_6.Outbox;
     using Persistence;
     using Transport;
     using Unicast;

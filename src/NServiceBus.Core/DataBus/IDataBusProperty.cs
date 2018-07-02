@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     /// <summary>
     /// The contract to implement a <see cref="IDataBusProperty" />.

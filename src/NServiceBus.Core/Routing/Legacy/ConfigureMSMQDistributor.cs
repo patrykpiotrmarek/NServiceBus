@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Routing.Legacy
+﻿namespace NServiceBus_6.Routing.Legacy
 {
     using System;
     using Configuration.AdvanceExtensibility;

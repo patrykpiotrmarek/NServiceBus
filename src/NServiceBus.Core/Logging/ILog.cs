@@ -1,4 +1,4 @@
-namespace NServiceBus.Logging
+namespace NServiceBus_6.Logging
 {
     using System;
     using JetBrains.Annotations;

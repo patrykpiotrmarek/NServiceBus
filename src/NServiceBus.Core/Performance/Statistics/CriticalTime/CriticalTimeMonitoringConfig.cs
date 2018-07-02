@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using Features;
 
@@ -12,7 +12,7 @@ namespace NServiceBus
         /// </summary>
         /// <param name="config">The <see cref="EndpointConfiguration" /> instance to apply the settings to.</param>
         [ObsoleteEx(
-            Message = "Performance counters have been released as a separate package: NServiceBus.Metrics.PerformanceCounters",
+            Message = "Performance counters have been released as a separate package: NServiceBus_6.Metrics.PerformanceCounters",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public static void EnableCriticalTimePerformanceCounter(this EndpointConfiguration config)

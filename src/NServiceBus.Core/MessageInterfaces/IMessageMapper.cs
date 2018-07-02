@@ -1,4 +1,4 @@
-namespace NServiceBus.MessageInterfaces
+namespace NServiceBus_6.MessageInterfaces
 {
     using System;
     using System.Collections.Generic;

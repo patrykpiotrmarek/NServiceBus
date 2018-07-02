@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Unicast.Tests
+﻿namespace NServiceBus_6.Unicast.Tests
 {
     using System;
     using System.Configuration;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     [TestFixture]

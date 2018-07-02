@@ -1,4 +1,4 @@
-namespace NServiceBus.Container
+namespace NServiceBus_6.Container
 {
     using Settings;
 

@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -26,7 +26,7 @@ namespace NServiceBus
 
             if (!routes.Any())
             {
-                throw new Exception($"Cannot configure routing for assembly {messageAssembly.GetName().Name} because it contains no types considered as messages. Message types have to either implement NServiceBus.IMessage interface or match a defined message convention.");
+                throw new Exception($"Cannot configure routing for assembly {messageAssembly.GetName().Name} because it contains no types considered as messages. Message types have to either implement NServiceBus_6.IMessage interface or match a defined message convention.");
             }
 
             return routes;

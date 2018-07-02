@@ -1,8 +1,8 @@
-namespace NServiceBus.AcceptanceTests.Core.Persistence
+namespace NServiceBus_6.AcceptanceTests.Core.Persistence
 {
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Persistence;
+    using NServiceBus_6.Persistence;
     using NUnit.Framework;
 
     public class When_a_persistence_does_not_support_subscriptions : NServiceBusAcceptanceTest

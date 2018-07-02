@@ -1,13 +1,13 @@
 ﻿#pragma warning disable CS0618
-namespace NServiceBus.Transport.Msmq.AcceptanceTests
+namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using Config;
     using Features;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
     using Support;
 

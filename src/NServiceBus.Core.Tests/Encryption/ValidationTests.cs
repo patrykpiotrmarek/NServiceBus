@@ -1,7 +1,7 @@
-namespace NServiceBus.Core.Tests.Encryption
+namespace NServiceBus_6.Core.Tests.Encryption
 {
     using System.Configuration;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     [TestFixture]

@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_no_explicit_error_queue_configured_for_sendonly_endpoint : NServiceBusAcceptanceTest

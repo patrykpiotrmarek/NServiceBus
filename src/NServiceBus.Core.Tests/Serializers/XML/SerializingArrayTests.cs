@@ -1,4 +1,4 @@
-namespace NServiceBus.Serializers.XML.Test
+namespace NServiceBus_6.Serializers.XML.Test
 {
     using System;
     using System.IO;
@@ -42,7 +42,7 @@ namespace NServiceBus.Serializers.XML.Test
         {
             var xml =
               @"<?xml version=""1.0"" encoding=""utf-8""?>
-<Messages xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test"">
+<Messages xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test"">
     <MessageWithArray>
         <SagaId>6bddc475-22a5-433b-a3ed-9edf00e8e353</SagaId>
         <SomeInts>
@@ -123,7 +123,7 @@ namespace NServiceBus.Serializers.XML.Test
                 var xml = reader.ReadToEnd();
 
                 var expected = XDocument.Parse(@"<?xml version=""1.0"" ?>
-<MessageWithNullableArray xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus.Serializers.XML.Test"">
+<MessageWithNullableArray xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://tempuri.net/NServiceBus_6.Serializers.XML.Test"">
 <SagaId>00000000-0000-0000-0000-000000000000</SagaId>
 <SomeInts>
 <NullableOfInt32>null</NullableOfInt32>

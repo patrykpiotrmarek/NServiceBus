@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Utils.Reflection
+﻿namespace NServiceBus_6.Core.Utils.Reflection
 {
     using System;
     using NUnit.Framework;

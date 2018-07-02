@@ -1,11 +1,11 @@
-﻿namespace NServiceBus.AcceptanceTests.Tx.ImmediateDispatch
+﻿namespace NServiceBus_6.AcceptanceTests.Tx.ImmediateDispatch
 {
     using System;
     using System.Threading.Tasks;
     using System.Transactions;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class When_sending_inside_ambient_tx : NServiceBusAcceptanceTest

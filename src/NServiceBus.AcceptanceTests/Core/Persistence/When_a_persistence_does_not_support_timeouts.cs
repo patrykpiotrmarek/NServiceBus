@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Persistence
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Persistence
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
     using Features;
-    using NServiceBus.Persistence;
+    using NServiceBus_6.Persistence;
     using NUnit.Framework;
 
     public class When_a_persistence_does_not_support_timeouts : NServiceBusAcceptanceTest

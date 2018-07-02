@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Msmq
+﻿namespace NServiceBus_6.Core.Tests.Msmq
 {
     using NUnit.Framework;
 

@@ -1,4 +1,4 @@
-namespace NServiceBus.Sagas
+namespace NServiceBus_6.Sagas
 {
     /// <summary>
     /// The property that this saga is correlated on.

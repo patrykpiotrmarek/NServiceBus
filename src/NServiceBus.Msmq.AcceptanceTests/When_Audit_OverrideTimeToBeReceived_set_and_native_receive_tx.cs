@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System;
     using AcceptanceTesting;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
 
     public class When_Audit_OverrideTimeToBeReceived_set_and_native_receive_tx : NServiceBusAcceptanceTest

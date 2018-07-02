@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Performance.TimeToBeReceived
+﻿namespace NServiceBus_6.Performance.TimeToBeReceived
 {
     using System;
     using DeliveryConstraints;

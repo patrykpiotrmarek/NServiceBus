@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     /// <summary>
     /// Configuration options for the learning transport.

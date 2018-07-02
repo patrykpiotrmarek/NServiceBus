@@ -1,4 +1,4 @@
-namespace NServiceBus.Serializers.XML.Test.B
+namespace NServiceBus_6.Serializers.XML.Test.B
 {
     using System;
 

@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     /// <summary>
     /// Provides information about the immediate retries configuration.

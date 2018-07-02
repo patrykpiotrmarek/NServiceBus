@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     /// <summary>
     /// Indicates that recoverability is required to move the current message to the error queue.

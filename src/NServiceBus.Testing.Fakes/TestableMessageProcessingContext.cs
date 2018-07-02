@@ -1,5 +1,5 @@
 // ReSharper disable PartialTypeWithSinglePart
-namespace NServiceBus.Testing
+namespace NServiceBus_6.Testing
 {
     using System;
     using System.Collections.Concurrent;
@@ -47,7 +47,7 @@ namespace NServiceBus.Testing
 
         /// <summary>
         /// Instantiates a message of type T and performs a regular
-        /// <see cref="M:NServiceBus.IMessageProcessingContext.Reply(System.Object,NServiceBus.ReplyOptions)" />.
+        /// <see cref="M:NServiceBus_6.IMessageProcessingContext.Reply(System.Object,NServiceBus.ReplyOptions)" />.
         /// </summary>
         /// <typeparam name="T">The type of message, usually an interface.</typeparam>
         /// <param name="messageConstructor">An action which initializes properties of the message.</param>

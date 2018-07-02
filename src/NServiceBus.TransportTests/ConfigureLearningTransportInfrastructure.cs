@@ -1,9 +1,9 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using NServiceBus;
-using NServiceBus.Settings;
-using NServiceBus.TransportTests;
+using NServiceBus_6;
+using NServiceBus_6.Settings;
+using NServiceBus_6.TransportTests;
 
 class ConfigureLearningTransportInfrastructure : IConfigureTransportInfrastructure
 {

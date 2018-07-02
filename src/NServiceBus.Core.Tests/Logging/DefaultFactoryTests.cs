@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Core.Tests.Logging
+﻿namespace NServiceBus_6.Core.Tests.Logging
 {
     using System;
     using System.IO;
-    using NServiceBus.Logging;
+    using NServiceBus_6.Logging;
     using NUnit.Framework;
 
     [TestFixture]

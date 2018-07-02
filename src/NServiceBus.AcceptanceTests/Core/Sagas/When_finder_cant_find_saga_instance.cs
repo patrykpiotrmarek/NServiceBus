@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Sagas
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Sagas
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
     using Extensibility;
-    using NServiceBus;
-    using NServiceBus.Persistence;
-    using NServiceBus.Sagas;
+    using NServiceBus_6;
+    using NServiceBus_6.Persistence;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
 
     [TestFixture]

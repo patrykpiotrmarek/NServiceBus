@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast.Subscriptions.MessageDrivenSubscriptions
+namespace NServiceBus_6.Unicast.Subscriptions.MessageDrivenSubscriptions
 {
     /// <summary>
     /// Represents a subscriber in message-driven subscriptions.

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Unicast.Config.Tests
+﻿namespace NServiceBus_6.Unicast.Config.Tests
 {
     using System.Threading.Tasks;
     using Features;

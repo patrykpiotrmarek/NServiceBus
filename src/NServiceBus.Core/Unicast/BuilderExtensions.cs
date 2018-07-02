@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     using System;
     using ObjectBuilder;

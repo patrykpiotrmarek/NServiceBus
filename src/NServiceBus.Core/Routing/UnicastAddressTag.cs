@@ -1,4 +1,4 @@
-namespace NServiceBus.Routing
+namespace NServiceBus_6.Routing
 {
     /// <summary>
     /// Represents a route directly to the specified destination.

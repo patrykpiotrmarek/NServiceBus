@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTesting
+﻿namespace NServiceBus_6.AcceptanceTesting
 {
     using System;
 

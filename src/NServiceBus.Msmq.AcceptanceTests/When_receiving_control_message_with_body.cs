@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Transport.Msmq.AcceptanceTests
+﻿namespace NServiceBus_6.Transport.Msmq.AcceptanceTests
 {
     using System;
     using System.Collections.Generic;
@@ -8,8 +8,8 @@
     using AcceptanceTesting.Customization;
     using Extensibility;
     using Features;
-    using NServiceBus.AcceptanceTests;
-    using NServiceBus.AcceptanceTests.EndpointTemplates;
+    using NServiceBus_6.AcceptanceTests;
+    using NServiceBus_6.AcceptanceTests.EndpointTemplates;
     using NUnit.Framework;
     using Pipeline;
     using Routing;

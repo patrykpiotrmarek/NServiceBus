@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Timeout.TimeoutManager
+﻿namespace NServiceBus_6.Core.Tests.Timeout.TimeoutManager
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
     using System.Threading;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Timeout.Core;
+    using NServiceBus_6.Timeout.Core;
     using NUnit.Framework;
     using Transport;
 

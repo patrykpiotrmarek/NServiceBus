@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Sagas
+﻿namespace NServiceBus_6.AcceptanceTests.Sagas
 {
     using System;
     using System.Threading.Tasks;
@@ -6,7 +6,7 @@
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
     using Features;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
 
     public class when_reply_from_saga_not_found_handler : NServiceBusAcceptanceTest

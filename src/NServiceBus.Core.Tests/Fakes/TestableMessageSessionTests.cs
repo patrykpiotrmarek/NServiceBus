@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Fakes
+﻿namespace NServiceBus_6.Core.Tests.Fakes
 {
     using NUnit.Framework;
     using Testing;

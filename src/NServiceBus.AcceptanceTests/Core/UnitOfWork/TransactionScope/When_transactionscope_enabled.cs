@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.UnitOfWork.TransactionScope
+﻿namespace NServiceBus_6.AcceptanceTests.Core.UnitOfWork.TransactionScope
 {
     using System.Threading.Tasks;
     using System.Transactions;

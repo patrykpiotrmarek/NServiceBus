@@ -7,8 +7,8 @@
     <ProjectGuid>{758357F6-CD31-4337-80C4-BA377FC257AF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NServiceBus.AcceptanceTesting</RootNamespace>
-    <AssemblyName>NServiceBus.AcceptanceTesting</AssemblyName>
+    <RootNamespace>NServiceBus_6.AcceptanceTesting</RootNamespace>
+    <AssemblyName>NServiceBus_6.AcceptanceTesting</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

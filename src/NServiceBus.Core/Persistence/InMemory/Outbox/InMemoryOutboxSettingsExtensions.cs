@@ -1,9 +1,9 @@
-namespace NServiceBus.InMemory.Outbox
+namespace NServiceBus_6.InMemory.Outbox
 {
     using System;
     using Configuration.AdvanceExtensibility;
     using Features;
-    using NServiceBus.Outbox;
+    using NServiceBus_6.Outbox;
 
     /// <summary>
     /// Contains InMemoryOutbox related settings extensions.

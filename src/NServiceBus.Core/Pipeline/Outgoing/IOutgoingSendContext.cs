@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Pipeline
+﻿namespace NServiceBus_6.Pipeline
 {
     /// <summary>
     /// Pipeline context for send operations.

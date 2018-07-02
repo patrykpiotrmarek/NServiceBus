@@ -1,4 +1,4 @@
-namespace NServiceBus.Serializers.Json.Tests
+namespace NServiceBus_6.Serializers.Json.Tests
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +8,7 @@ namespace NServiceBus.Serializers.Json.Tests
     using System.Xml.Linq;
     using MessageInterfaces.MessageMapper.Reflection;
     using NUnit.Framework;
-    using JsonMessageSerializer = NServiceBus.JsonMessageSerializer;
+    using JsonMessageSerializer = NServiceBus_6.JsonMessageSerializer;
 
     [TestFixture]
     public class JsonMessageSerializerTest
@@ -121,11 +121,11 @@ namespace NServiceBus.Serializers.Json.Tests
             var jsonWithMultipleMessages = @"
 [
   {
-    $type: 'NServiceBus.Serializers.Json.Tests.JsonMessageSerializerTest+SimpleMessage1, NServiceBus.Core.Tests',
+    $type: 'NServiceBus_6.Serializers.Json.Tests.JsonMessageSerializerTest+SimpleMessage1, NServiceBus_6.Core.Tests',
     PropertyOnMessage1: 'Message1'
   },
   {
-    $type: 'NServiceBus.Serializers.Json.Tests.JsonMessageSerializerTest+SimpleMessage2, NServiceBus.Core.Tests',
+    $type: 'NServiceBus_6.Serializers.Json.Tests.JsonMessageSerializerTest+SimpleMessage2, NServiceBus_6.Core.Tests',
     PropertyOnMessage2: 'Message2'
   }
 ]";
@@ -586,26 +586,26 @@ namespace NServiceBus.Serializers.Json.Tests
             });
             var serializer = new JsonMessageSerializer(messageMapper);
             var xml = @"[{
-    $type: ""NServiceBus.Serializers.Json.Tests.IA, NServiceBus.Core.Tests"",
+    $type: ""NServiceBus_6.Serializers.Json.Tests.IA, NServiceBus_6.Core.Tests"",
     Data: ""rhNAGU4dr/Qjz6ocAsOs3wk3ZmxHMOg="",
     S: ""kalle"",
     I: 42,
     B: {
         BString: ""BOO"",
         C: {
-            $type: ""NServiceBus.Serializers.Json.Tests.C, NServiceBus.Core.Tests"",
+            $type: ""NServiceBus_6.Serializers.Json.Tests.C, NServiceBus_6.Core.Tests"",
             Cstr: ""COO""
         }
     }
 }, {
-    $type: ""NServiceBus.Serializers.Json.Tests.IA, NServiceBus.Core.Tests"",
+    $type: ""NServiceBus_6.Serializers.Json.Tests.IA, NServiceBus_6.Core.Tests"",
     Data: ""AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="",
     S: ""kalle"",
     I: 42,
     B: {
         BString: ""BOO"",
         C: {
-            $type: ""NServiceBus.Serializers.Json.Tests.C, NServiceBus.Core.Tests"",
+            $type: ""NServiceBus_6.Serializers.Json.Tests.C, NServiceBus_6.Core.Tests"",
             Cstr: ""COO""
         }
     }

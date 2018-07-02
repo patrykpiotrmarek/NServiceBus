@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Outbox
+﻿namespace NServiceBus_6.AcceptanceTests.Outbox
 {
     using System;
     using System.Linq;
@@ -6,7 +6,7 @@
     using AcceptanceTesting;
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class When_a_message_is_audited : NServiceBusAcceptanceTest

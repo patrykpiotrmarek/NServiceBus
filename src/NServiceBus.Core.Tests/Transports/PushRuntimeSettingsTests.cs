@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Transports
+﻿namespace NServiceBus_6.Core.Tests.Transports
 {
     using System;
     using NUnit.Framework;

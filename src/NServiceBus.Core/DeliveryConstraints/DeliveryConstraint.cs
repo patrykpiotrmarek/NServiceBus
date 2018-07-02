@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.DeliveryConstraints
+﻿namespace NServiceBus_6.DeliveryConstraints
 {
     using System.Collections.Generic;
 

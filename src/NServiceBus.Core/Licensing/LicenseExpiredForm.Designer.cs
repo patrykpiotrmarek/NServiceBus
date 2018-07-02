@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     partial class LicenseExpiredForm
     {
@@ -53,7 +53,7 @@
             // 
             // logoPictureBox
             // 
-            this.logoPictureBox.Image = global::NServiceBus.Properties.Resources.logo;
+            this.logoPictureBox.Image = global::NServiceBus_6.Properties.Resources.logo;
             this.logoPictureBox.InitialImage = null;
             this.logoPictureBox.Location = new System.Drawing.Point(43, 12);
             this.logoPictureBox.Name = "logoPictureBox";

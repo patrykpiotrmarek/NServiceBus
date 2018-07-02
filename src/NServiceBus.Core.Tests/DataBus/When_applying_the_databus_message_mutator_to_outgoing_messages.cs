@@ -1,12 +1,12 @@
-namespace NServiceBus.Core.Tests.DataBus
+namespace NServiceBus_6.Core.Tests.DataBus
 {
     using System;
     using System.IO;
     using System.Threading.Tasks;
     using DeliveryConstraints;
-    using NServiceBus.DataBus;
-    using NServiceBus.Performance.TimeToBeReceived;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.DataBus;
+    using NServiceBus_6.Performance.TimeToBeReceived;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Testing;
 

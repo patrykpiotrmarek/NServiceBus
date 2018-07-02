@@ -1,4 +1,4 @@
-namespace NServiceBus.AcceptanceTests.Core.FakeTransport
+namespace NServiceBus_6.AcceptanceTests.Core.FakeTransport
 {
     using System;
     using System.Threading.Tasks;
@@ -13,7 +13,7 @@ namespace NServiceBus.AcceptanceTests.Core.FakeTransport
             this.exceptionToThrow = exceptionToThrow;
         }
 
-        public Task Init(Func<MessageContext, Task> onMessage, Func<ErrorContext, Task<ErrorHandleResult>> onError, NServiceBus.CriticalError criticalError, PushSettings settings)
+        public Task Init(Func<MessageContext, Task> onMessage, Func<ErrorContext, Task<ErrorHandleResult>> onError, NServiceBus_6.CriticalError criticalError, PushSettings settings)
         {
             this.criticalError = criticalError;
             return Task.FromResult(0);
@@ -37,7 +37,7 @@ namespace NServiceBus.AcceptanceTests.Core.FakeTransport
             }
         }
 
-        NServiceBus.CriticalError criticalError;
+        NServiceBus_6.CriticalError criticalError;
         bool throwCritical;
         readonly bool throwOnStop;
         readonly Exception exceptionToThrow;

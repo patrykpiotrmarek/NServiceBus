@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Testing.Tests.Fakes
+﻿namespace NServiceBus_6.Testing.Tests.Fakes
 {
     using System.Linq;
     using System.Reflection;

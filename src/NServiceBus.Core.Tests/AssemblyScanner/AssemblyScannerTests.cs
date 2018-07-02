@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.AssemblyScanner
+﻿namespace NServiceBus_6.Core.Tests.AssemblyScanner
 {
     using System;
     using System.CodeDom.Compiler;
@@ -94,7 +94,7 @@
         [Test, RunInApplicationDomain]
         public void Assemblies_with_direct_reference_are_included()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core.dll");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core.dll");
             var assemblyWithReference = new DynamicAssembly("AssemblyWithReference.dll", new[]
             {
                 busAssembly
@@ -113,7 +113,7 @@
         [Test, RunInApplicationDomain]
         public void Assemblies_with_no_reference_are_excluded()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
             var assemblyWithReference = new DynamicAssembly("AssemblyWithReference", new[]
             {
                 busAssembly
@@ -134,12 +134,12 @@
         [Test, RunInApplicationDomain]
         public void Assemblies_which_reference_older_nsb_version_are_included()
         {
-            var busAssemblyV2 = new DynamicAssembly("Fake.NServiceBus.Core", version: new Version(2, 0, 0), fakeIdentity: true);
+            var busAssemblyV2 = new DynamicAssembly("Fake.NServiceBus_6.Core", version: new Version(2, 0, 0), fakeIdentity: true);
             var assemblyReferencesV2 = new DynamicAssembly("AssemblyWithReference2", new[]
             {
                 busAssemblyV2
             });
-            var busAssemblyV1 = new DynamicAssembly("Fake.NServiceBus.Core", version: new Version(1, 0, 0), fakeIdentity: true);
+            var busAssemblyV1 = new DynamicAssembly("Fake.NServiceBus_6.Core", version: new Version(1, 0, 0), fakeIdentity: true);
             var assemblyReferencesV1 = new DynamicAssembly("AssemblyWithReference1", new[]
             {
                 busAssemblyV1
@@ -160,7 +160,7 @@
         [Test, RunInApplicationDomain]
         public void Assemblies_with_transitive_reference_are_include()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
             var assemblyC = new DynamicAssembly("C", new[]
             {
                 busAssembly
@@ -194,7 +194,7 @@
         [Test, RunInApplicationDomain]
         public void AppDomainAssemblies_are_included_when_enabling_ScanAppDomainAssemblies()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
             Assembly.LoadFrom(busAssembly.FilePath);
 
             var scanner = new AssemblyScanner(); // don't scan the dynamic assembly folder
@@ -209,7 +209,7 @@
         [Test, RunInApplicationDomain]
         public void Throw_exception_on_assembly_loading_conflicts()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
 
             Directory.CreateDirectory(Path.Combine(DynamicAssembly.TestAssemblyDirectory, "subdir"));
             var destFileName = Path.Combine(DynamicAssembly.TestAssemblyDirectory, "subdir", busAssembly.FileName);
@@ -226,7 +226,7 @@
         [Test, RunInApplicationDomain]
         public void Ignore_assembly_loading_errors_when_disabling_ThrowExceptions()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
 
             Directory.CreateDirectory(Path.Combine(DynamicAssembly.TestAssemblyDirectory, "subdir"));
             var destFileName = Path.Combine(DynamicAssembly.TestAssemblyDirectory, "subdir", busAssembly.FileName);
@@ -246,7 +246,7 @@
         [Test, RunInApplicationDomain]
         public void Skipped_dlls_should_be_excluded()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
             var excludedAssembly1 = new DynamicAssembly("A", new[]
             {
                 busAssembly
@@ -274,7 +274,7 @@
         [Test, RunInApplicationDomain]
         public void Skipped_exes_should_be_excluded()
         {
-            var busAssembly = new DynamicAssembly("Fake.NServiceBus.Core");
+            var busAssembly = new DynamicAssembly("Fake.NServiceBus_6.Core");
             var excludedAssembly1 = new DynamicAssembly("A", new[]
             {
                 busAssembly
@@ -315,7 +315,7 @@ public interface IInheritedEvent : IBaseEvent
 
             var handler =
 @"
-using NServiceBus;
+using NServiceBus_6;
 using System.Threading.Tasks;
 
 class InterfaceMessageHandler : IHandleMessages<IBaseEvent>
@@ -386,8 +386,8 @@ class InterfaceMessageHandler : IHandleMessages<IBaseEvent>
 
                 if (referenceTheCore)
                 {
-                    var targetCorePath = Path.Combine(TestAssemblyDirectory, "NServiceBus.Core.dll");
-                    File.Copy(Path.Combine(TestDirectory, "NServiceBus.Core.dll"), Path.Combine(TestAssemblyDirectory, "NServiceBus.Core.dll"));
+                    var targetCorePath = Path.Combine(TestAssemblyDirectory, "NServiceBus_6.Core.dll");
+                    File.Copy(Path.Combine(TestDirectory, "NServiceBus_6.Core.dll"), Path.Combine(TestAssemblyDirectory, "NServiceBus_6.Core.dll"));
 
                     param.ReferencedAssemblies.Add(targetCorePath);
                 }

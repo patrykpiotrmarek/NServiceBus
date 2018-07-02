@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Encryption
+﻿namespace NServiceBus_6.Core.Tests.Encryption
 {
     using System.Linq;
     using NUnit.Framework;

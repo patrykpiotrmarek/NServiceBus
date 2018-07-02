@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Performance.MessageDurability
+﻿namespace NServiceBus_6.Core.Tests.Performance.MessageDurability
 {
     using System.Threading.Tasks;
     using DeliveryConstraints;

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Transports.Learning
+﻿namespace NServiceBus_6.Core.Tests.Transports.Learning
 {
     using System.Collections.Generic;
     using NUnit.Framework;

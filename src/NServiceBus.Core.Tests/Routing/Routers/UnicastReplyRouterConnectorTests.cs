@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Routing.Routers
+﻿namespace NServiceBus_6.Core.Tests.Routing.Routers
 {
     using System.Threading.Tasks;
     using NUnit.Framework;

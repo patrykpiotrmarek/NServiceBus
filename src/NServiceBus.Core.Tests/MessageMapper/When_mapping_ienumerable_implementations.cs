@@ -2,7 +2,7 @@
 {
     using System.Collections;
     using System.Collections.Generic;
-    using NServiceBus.MessageInterfaces.MessageMapper.Reflection;
+    using NServiceBus_6.MessageInterfaces.MessageMapper.Reflection;
     using NUnit.Framework;
 
     [TestFixture]

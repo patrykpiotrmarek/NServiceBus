@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.LegacyRetries
+﻿namespace NServiceBus_6.AcceptanceTests.Core.LegacyRetries
 {
     using System;
     using System.Collections.Generic;

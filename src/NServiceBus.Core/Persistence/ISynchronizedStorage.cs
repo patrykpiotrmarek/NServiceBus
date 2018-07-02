@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Persistence
+﻿namespace NServiceBus_6.Persistence
 {
     using System.Threading.Tasks;
     using Extensibility;

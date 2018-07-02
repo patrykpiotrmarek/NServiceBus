@@ -1,4 +1,4 @@
-namespace NServiceBus.Config
+namespace NServiceBus_6.Config
 {
     using System.Configuration;
 
@@ -6,7 +6,7 @@ namespace NServiceBus.Config
     /// A configuration element collection of <see cref="RijndaelExpiredKey" />s.
     /// </summary>
     [ObsoleteEx(
-        Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+        Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
         RemoveInVersion = "8",
         TreatAsErrorFromVersion = "7")]
     public class RijndaelExpiredKeyCollection : ConfigurationElementCollection

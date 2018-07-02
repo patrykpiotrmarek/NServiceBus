@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline
+﻿namespace NServiceBus_6.Core.Tests.Pipeline
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class PipelineModelBuilderTests
@@ -21,7 +21,7 @@
 
             var ex = Assert.Throws<Exception>(() => builder.Build());
 
-            Assert.AreEqual("Step registration with id 'Root1' is already registered for 'NServiceBus.Core.Tests.Pipeline.PipelineModelBuilderTests+RootBehavior'.", ex.Message);
+            Assert.AreEqual("Step registration with id 'Root1' is already registered for 'NServiceBus_6.Core.Tests.Pipeline.PipelineModelBuilderTests+RootBehavior'.", ex.Message);
         }
 
         [Test]
@@ -114,7 +114,7 @@
 
             var ex = Assert.Throws<Exception>(() => builder.Build());
 
-            Assert.AreEqual("Can't find any behaviors/connectors for the root context (NServiceBus.Core.Tests.Pipeline.PipelineModelBuilderTests+IParentContext)", ex.Message);
+            Assert.AreEqual("Can't find any behaviors/connectors for the root context (NServiceBus_6.Core.Tests.Pipeline.PipelineModelBuilderTests+IParentContext)", ex.Message);
         }
 
         [Test]
@@ -131,7 +131,7 @@
 
             var ex = Assert.Throws<Exception>(() => builder.Build());
 
-            Assert.AreEqual("Multiple stage connectors found for stage 'NServiceBus.Core.Tests.Pipeline.PipelineModelBuilderTests+IParentContext'. Remove one of: 'NServiceBus.Core.Tests.Pipeline.PipelineModelBuilderTests+ParentContextToChildContextConnector', 'NServiceBus.Core.Tests.Pipeline.PipelineModelBuilderTests+ParentContextToChildContextNotInheritedFromParentContextConnector'", ex.Message);
+            Assert.AreEqual("Multiple stage connectors found for stage 'NServiceBus_6.Core.Tests.Pipeline.PipelineModelBuilderTests+IParentContext'. Remove one of: 'NServiceBus_6.Core.Tests.Pipeline.PipelineModelBuilderTests+ParentContextToChildContextConnector', 'NServiceBus_6.Core.Tests.Pipeline.PipelineModelBuilderTests+ParentContextToChildContextNotInheritedFromParentContextConnector'", ex.Message);
         }
 
         [Test]

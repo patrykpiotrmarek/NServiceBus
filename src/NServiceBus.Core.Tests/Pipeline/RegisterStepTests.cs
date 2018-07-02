@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline
+﻿namespace NServiceBus_6.Core.Tests.Pipeline
 {
     using System;
     using System.Threading.Tasks;
     using Features;
     using ObjectBuilder;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class RegisterStepTests

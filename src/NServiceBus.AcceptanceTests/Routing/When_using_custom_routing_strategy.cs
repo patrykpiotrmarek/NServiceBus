@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Routing
+﻿namespace NServiceBus_6.AcceptanceTests.Routing
 {
     using System;
     using System.Collections.Generic;
@@ -9,7 +9,7 @@
     using AcceptanceTesting.Customization;
     using Configuration.AdvanceExtensibility;
     using EndpointTemplates;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Settings;
 

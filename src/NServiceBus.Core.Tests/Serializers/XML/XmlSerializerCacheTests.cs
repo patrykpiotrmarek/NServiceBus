@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Serializers.XML
+﻿namespace NServiceBus_6.Core.Tests.Serializers.XML
 {
     using System.Linq;
     using System.Threading.Tasks;

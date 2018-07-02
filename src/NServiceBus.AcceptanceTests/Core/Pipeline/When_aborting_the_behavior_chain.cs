@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Pipeline
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Pipeline
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;

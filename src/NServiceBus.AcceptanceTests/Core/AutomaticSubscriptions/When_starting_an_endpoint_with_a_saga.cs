@@ -1,11 +1,11 @@
-namespace NServiceBus.AcceptanceTests.Core.AutomaticSubscriptions
+namespace NServiceBus_6.AcceptanceTests.Core.AutomaticSubscriptions
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     [TestFixture]

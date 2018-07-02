@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests.Routing
+namespace NServiceBus_6.Core.Tests.Routing
 {
     using System;
     using NUnit.Framework;

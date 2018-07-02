@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Msmq
+﻿namespace NServiceBus_6.Core.Tests.Msmq
 {
     using System;
     using System.Messaging;
@@ -9,8 +9,8 @@
     [TestFixture]
     public class MsmqQueueCreatorTests
     {
-        const string testQueueNameForSending = "NServiceBus.Core.Tests.MsmqQueueCreatorTests.Sending";
-        const string testQueueNameForReceiving = "NServiceBus.Core.Tests.MsmqQueueCreatorTests.Receiving";
+        const string testQueueNameForSending = "NServiceBus_6.Core.Tests.MsmqQueueCreatorTests.Sending";
+        const string testQueueNameForReceiving = "NServiceBus_6.Core.Tests.MsmqQueueCreatorTests.Receiving";
 
         [SetUp]
         public void Setup()

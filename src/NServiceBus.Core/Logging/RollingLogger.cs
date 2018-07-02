@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -31,7 +31,7 @@ namespace NServiceBus
             }
             catch (Exception exception)
             {
-                var errorMessage = $"NServiceBus.RollingLogger Could not write to log file '{currentfilePath}'. Exception: {exception}";
+                var errorMessage = $"NServiceBus_6.RollingLogger Could not write to log file '{currentfilePath}'. Exception: {exception}";
                 Trace.WriteLine(errorMessage);
             }
         }
@@ -76,7 +76,7 @@ namespace NServiceBus
                 }
                 catch (Exception exception)
                 {
-                    var errorMessage = $"NServiceBus.RollingLogger Could not purge log file '{file}'. Exception: {exception}";
+                    var errorMessage = $"NServiceBus_6.RollingLogger Could not purge log file '{file}'. Exception: {exception}";
                     InnerWrite(errorMessage);
                 }
             }

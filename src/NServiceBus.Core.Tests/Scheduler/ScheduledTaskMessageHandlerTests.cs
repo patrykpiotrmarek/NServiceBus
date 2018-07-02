@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Scheduling.Tests
+﻿namespace NServiceBus_6.Scheduling.Tests
 {
     using System;
     using System.Linq;

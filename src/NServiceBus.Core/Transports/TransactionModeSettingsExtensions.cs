@@ -1,4 +1,4 @@
-namespace NServiceBus.ConsistencyGuarantees
+namespace NServiceBus_6.ConsistencyGuarantees
 {
     using System;
     using Settings;

@@ -1,9 +1,9 @@
-namespace NServiceBus.Core.Tests.Sagas.TypeBasedSagas
+namespace NServiceBus_6.Core.Tests.Sagas.TypeBasedSagas
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
 
     [TestFixture]

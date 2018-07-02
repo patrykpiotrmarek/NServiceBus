@@ -1,4 +1,4 @@
-namespace NServiceBus.DataBus
+namespace NServiceBus_6.DataBus
 {
     using System;
     using System.IO;

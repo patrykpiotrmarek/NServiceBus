@@ -1,14 +1,14 @@
-﻿namespace NServiceBus.Unicast.Tests
+﻿namespace NServiceBus_6.Unicast.Tests
 {
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using Features;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using Settings;
     using NUnit.Framework;
     using Testing;
-    using NServiceBus.Transport;
+    using NServiceBus_6.Transport;
 
     [TestFixture]
     public class RunningEndpointInstanceTest

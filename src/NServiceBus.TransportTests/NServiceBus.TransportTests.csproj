@@ -7,8 +7,8 @@
     <ProjectGuid>{7EF57153-179F-449A-9C81-BD049B1B5613}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NServiceBus.TransportTests</RootNamespace>
-    <AssemblyName>NServiceBus.TransportTests</AssemblyName>
+    <RootNamespace>NServiceBus_6.TransportTests</RootNamespace>
+    <AssemblyName>NServiceBus_6.TransportTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Audit
+﻿namespace NServiceBus_6.Core.Tests.Audit
 {
     using NUnit.Framework;
     using Settings;

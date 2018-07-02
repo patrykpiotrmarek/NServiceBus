@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     using System;
     using System.Runtime.Serialization;
@@ -8,8 +8,8 @@
     /// </summary>
     [Serializable]
     [ObsoleteEx(
-        Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
-        ReplacementTypeOrMember = "NServiceBus.Encryption.MessageProperty.EncryptedString",
+        Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
+        ReplacementTypeOrMember = "NServiceBus_6.Encryption.MessageProperty.EncryptedString",
         RemoveInVersion = "8",
         TreatAsErrorFromVersion = "7")]
     public class WireEncryptedString : ISerializable
@@ -18,7 +18,7 @@
         /// Initializes a new instance of <see cref="WireEncryptedString" />.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public WireEncryptedString()
@@ -29,7 +29,7 @@
         /// Initializes a new instance of <see cref="WireEncryptedString" />.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public WireEncryptedString(SerializationInfo info, StreamingContext context)
@@ -42,7 +42,7 @@
         /// The unencrypted string.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public string Value { get; set; }
@@ -51,7 +51,7 @@
         /// The encrypted value of this string.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public EncryptedValue EncryptedValue

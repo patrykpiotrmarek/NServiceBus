@@ -1,5 +1,5 @@
 ﻿// ReSharper disable PartialTypeWithSinglePart
-namespace NServiceBus.Testing
+namespace NServiceBus_6.Testing
 {
     using Extensibility;
     using ObjectBuilder;
@@ -17,7 +17,7 @@ namespace NServiceBus.Testing
         public FakeBuilder Builder { get; set; } = new FakeBuilder();
 
         /// <summary>
-        /// A <see cref="T:NServiceBus.Extensibility.ContextBag" /> which can be used to extend the current object.
+        /// A <see cref="T:NServiceBus_6.Extensibility.ContextBag" /> which can be used to extend the current object.
         /// </summary>
         public ContextBag Extensions { get; set; } = new ContextBag();
 

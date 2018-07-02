@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.MessageMutator
+﻿namespace NServiceBus_6.MessageMutator
 {
     using System;
     using System.Collections.Generic;

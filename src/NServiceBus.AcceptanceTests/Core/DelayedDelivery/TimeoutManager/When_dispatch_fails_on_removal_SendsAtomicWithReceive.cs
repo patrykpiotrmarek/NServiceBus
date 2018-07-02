@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
+﻿namespace NServiceBus_6.AcceptanceTests.Core.DelayedDelivery.TimeoutManager
 {
     using System;
     using System.Threading.Tasks;
@@ -6,8 +6,8 @@
     using EndpointTemplates;
     using Extensibility;
     using Features;
-    using NServiceBus.Persistence;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Persistence;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Timeout.Core;
 

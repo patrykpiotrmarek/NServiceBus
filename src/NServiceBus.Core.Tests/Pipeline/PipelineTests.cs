@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline
+﻿namespace NServiceBus_6.Core.Tests.Pipeline
 {
     using System;
     using System.Collections.Generic;
@@ -9,7 +9,7 @@
     using System.Text;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Settings;
     using Testing;

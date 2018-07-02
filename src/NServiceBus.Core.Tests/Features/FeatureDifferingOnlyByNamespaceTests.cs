@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Core.Tests.Features
+﻿namespace NServiceBus_6.Core.Tests.Features
 {
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Features;
+    using NServiceBus_6.Features;
     using NUnit.Framework;
     using Settings;
 
@@ -42,7 +42,7 @@
 
 namespace NamespaceA
 {
-    using NServiceBus.Core.Tests.Features;
+    using NServiceBus_6.Core.Tests.Features;
 
     public class MyFeature : TestFeature
     {
@@ -51,7 +51,7 @@ namespace NamespaceA
 
 namespace NamespaceB
 {
-    using NServiceBus.Core.Tests.Features;
+    using NServiceBus_6.Core.Tests.Features;
 
     public class MyFeature : TestFeature
     {

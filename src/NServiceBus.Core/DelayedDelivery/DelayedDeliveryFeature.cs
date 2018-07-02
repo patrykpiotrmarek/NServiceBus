@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Features
+﻿namespace NServiceBus_6.Features
 {
     using Config;
     using DelayedDelivery;

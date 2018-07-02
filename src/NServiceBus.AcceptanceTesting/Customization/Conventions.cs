@@ -1,4 +1,4 @@
-namespace NServiceBus.AcceptanceTesting.Customization
+namespace NServiceBus_6.AcceptanceTesting.Customization
 {
     using System;
 

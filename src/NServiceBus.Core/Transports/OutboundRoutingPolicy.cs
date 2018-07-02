@@ -1,4 +1,4 @@
-namespace NServiceBus.Transport
+namespace NServiceBus_6.Transport
 {
     /// <summary>
     /// Defines the policy for outbound routing.

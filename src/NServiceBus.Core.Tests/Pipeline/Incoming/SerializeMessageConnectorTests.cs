@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.Core.Tests.Pipeline.Incoming
+﻿namespace NServiceBus_6.Core.Tests.Pipeline.Incoming
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Threading.Tasks;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
     using Serialization;
     using Testing;

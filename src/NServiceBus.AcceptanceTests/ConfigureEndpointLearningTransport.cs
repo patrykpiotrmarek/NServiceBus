@@ -1,8 +1,8 @@
 using System.IO;
 using System.Threading.Tasks;
-using NServiceBus;
-using NServiceBus.AcceptanceTesting.Support;
-using NServiceBus.Transport;
+using NServiceBus_6;
+using NServiceBus_6.AcceptanceTesting.Support;
+using NServiceBus_6.Transport;
 
 public class ConfigureEndpointLearningTransport : IConfigureEndpointTestExecution
 {

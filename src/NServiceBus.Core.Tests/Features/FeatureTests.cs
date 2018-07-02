@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Features
+﻿namespace NServiceBus_6.Core.Tests.Features
 {
     using NUnit.Framework;
 

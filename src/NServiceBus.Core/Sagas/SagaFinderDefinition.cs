@@ -1,4 +1,4 @@
-namespace NServiceBus.Sagas
+namespace NServiceBus_6.Sagas
 {
     using System;
     using System.Collections.Generic;

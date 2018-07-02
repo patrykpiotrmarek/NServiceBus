@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.FakeTransport.ProcessingOptimizations
+﻿namespace NServiceBus_6.AcceptanceTests.Core.FakeTransport.ProcessingOptimizations
 {
     using System;
     using System.Collections.Generic;
@@ -8,11 +8,11 @@
     using AcceptanceTesting.Customization;
     using EndpointTemplates;
     using Extensibility;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Settings;
     using Transport;
-    using CriticalError = NServiceBus.CriticalError;
+    using CriticalError = NServiceBus_6.CriticalError;
 
     public class When_using_concurrency_limit : NServiceBusAcceptanceTest
     {

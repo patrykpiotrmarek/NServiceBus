@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.DataBus.FileShare
+﻿namespace NServiceBus_6.Core.Tests.DataBus.FileShare
 {
     using System;
     using System.IO;

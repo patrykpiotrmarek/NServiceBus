@@ -1,4 +1,4 @@
-namespace NServiceBus.Faults
+namespace NServiceBus_6.Faults
 {
     using System;
     using System.Collections.Generic;

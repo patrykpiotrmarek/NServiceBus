@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Sagas
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Sagas
 {
     using System;
     using System.Security.Cryptography;
@@ -8,7 +8,7 @@
     using Configuration.AdvanceExtensibility;
     using EndpointTemplates;
     using Features;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
 
     public class When_overriding_saga_id_creation : NServiceBusAcceptanceTest
@@ -25,7 +25,7 @@
                 .Done(c => c.SagaId.HasValue)
                 .Run();
 
-            Assert.AreEqual(new Guid("1d99288a-418d-9e4d-46e4-d49a27908fc8"), context.SagaId);
+            Assert.AreEqual(new Guid("338b11d0-b75d-1e9c-8c3e-67a657b2482b"), context.SagaId);
         }
 
         public class Context : ScenarioContext

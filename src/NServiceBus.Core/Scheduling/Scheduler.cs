@@ -1,4 +1,4 @@
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     /// <summary>
     /// NServiceBus scheduling capability you can schedule a task or an action/lambda, to be executed repeatedly in a given

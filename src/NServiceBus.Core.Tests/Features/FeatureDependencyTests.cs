@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Features
+﻿namespace NServiceBus_6.Core.Tests.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Features;
+    using NServiceBus_6.Features;
     using NUnit.Framework;
     using Settings;
 
@@ -326,7 +326,7 @@
             public DependsOnOneByName_Feature()
             {
                 EnableByDefault();
-                DependsOn("NServiceBus.Core.Tests.Features.FeatureDependencyTests+MyFeature2");
+                DependsOn("NServiceBus_6.Core.Tests.Features.FeatureDependencyTests+MyFeature2");
             }
         }
 

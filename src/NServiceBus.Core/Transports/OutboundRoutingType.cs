@@ -1,4 +1,4 @@
-namespace NServiceBus.Transport
+namespace NServiceBus_6.Transport
 {
     /// <summary>
     /// The type of routing from the perspective of a transport.

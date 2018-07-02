@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Features
+﻿namespace NServiceBus_6.Features
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
     using ObjectBuilder;
     using Persistence;
     using Transport;

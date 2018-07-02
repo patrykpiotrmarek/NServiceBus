@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Persistence.InMemory
+﻿namespace NServiceBus_6.Core.Tests.Persistence.InMemory
 {
     using System;
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
 
     [TestFixture]

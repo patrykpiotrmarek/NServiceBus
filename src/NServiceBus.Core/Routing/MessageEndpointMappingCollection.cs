@@ -1,4 +1,4 @@
-namespace NServiceBus.Config
+namespace NServiceBus_6.Config
 {
     using System;
     using System.Collections.Generic;

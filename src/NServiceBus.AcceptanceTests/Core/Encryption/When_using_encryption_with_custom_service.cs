@@ -1,6 +1,6 @@
 ﻿// disable obsolete warnings. Tests will be removed in next major version
 #pragma warning disable CS0618
-namespace NServiceBus.AcceptanceTests.Core.Encryption
+namespace NServiceBus_6.AcceptanceTests.Core.Encryption
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +8,7 @@ namespace NServiceBus.AcceptanceTests.Core.Encryption
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class When_using_encryption_with_custom_service : NServiceBusAcceptanceTest

@@ -1,8 +1,8 @@
-﻿namespace NServiceBus.Core.Tests.Features
+﻿namespace NServiceBus_6.Core.Tests.Features
 {
     using System.Collections.Generic;
     using System.Linq;
-    using NServiceBus.Features;
+    using NServiceBus_6.Features;
     using Transport;
     using NUnit.Framework;
     using Settings;

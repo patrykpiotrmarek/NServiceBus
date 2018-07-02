@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Serializers
+﻿namespace NServiceBus_6.Core.Tests.Serializers
 {
     using System;
     using System.Collections.Generic;

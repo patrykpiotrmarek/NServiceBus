@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Hosting.Helpers
+﻿namespace NServiceBus_6.Hosting.Helpers
 {
     /// <summary>
     /// Contains information about a file that was skipped during scanning along with a text describing

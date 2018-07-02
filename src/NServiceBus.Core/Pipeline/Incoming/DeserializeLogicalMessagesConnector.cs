@@ -1,5 +1,5 @@
 ﻿// ReSharper disable ReturnTypeCanBeEnumerable.Local
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -134,7 +134,7 @@ namespace NServiceBus
 
         static bool IsV4OrBelowScheduledTask(string existingTypeString)
         {
-            return existingTypeString.StartsWith("NServiceBus.Scheduling.Messages.ScheduledTask, NServiceBus.Core");
+            return existingTypeString.StartsWith("NServiceBus_6.Scheduling.Messages.ScheduledTask, NServiceBus_6.Core");
         }
 
         MessageDeserializerResolver deserializerResolver;

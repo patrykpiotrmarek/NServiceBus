@@ -1,4 +1,4 @@
-namespace NServiceBus.AcceptanceTests.Core.Outbox
+namespace NServiceBus_6.AcceptanceTests.Core.Outbox
 {
     using System.Configuration;
     using System.Linq;

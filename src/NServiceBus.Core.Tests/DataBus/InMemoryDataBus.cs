@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.DataBus.InMemory
+﻿namespace NServiceBus_6.DataBus.InMemory
 {
     using System;
     using System.Collections.Generic;

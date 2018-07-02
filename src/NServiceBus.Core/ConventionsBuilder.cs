@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Reflection;
@@ -52,7 +52,7 @@ namespace NServiceBus
         /// Sets the function to be used to evaluate whether a property should be encrypted or not.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package. This convention configuration does not work in combination with the NServiceBus.Encryption.MessageProperty package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package. This convention configuration does not work in combination with the NServiceBus_6.Encryption.MessageProperty package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         public ConventionsBuilder DefiningEncryptedPropertiesAs(Func<PropertyInfo, bool> definesEncryptedProperty)

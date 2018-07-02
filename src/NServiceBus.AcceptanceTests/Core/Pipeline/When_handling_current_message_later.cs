@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Pipeline
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Pipeline
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Persistence;
+    using NServiceBus_6.Persistence;
     using NUnit.Framework;
 
     public class When_handling_current_message_later : NServiceBusAcceptanceTest

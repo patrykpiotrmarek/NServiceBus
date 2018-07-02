@@ -1,4 +1,4 @@
-namespace NServiceBus.Unicast.Queuing
+namespace NServiceBus_6.Unicast.Queuing
 {
     using System;
     using System.Runtime.Serialization;

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Encryption
+﻿namespace NServiceBus_6.Core.Tests.Encryption
 {
     using System;
     using System.Collections.Generic;
@@ -6,7 +6,7 @@
     using System.IO;
     using System.Linq;
     using System.Text;
-    using NServiceBus.Config;
+    using NServiceBus_6.Config;
     using NUnit.Framework;
 
     [TestFixture]
@@ -28,7 +28,7 @@
     <configSections>
         <section 
             name='RijndaelEncryptionServiceConfig' 
-            type='NServiceBus.Config.RijndaelEncryptionServiceConfig, NServiceBus.Core'/>
+            type='NServiceBus_6.Config.RijndaelEncryptionServiceConfig, NServiceBus_6.Core'/>
 </configSections>
 <RijndaelEncryptionServiceConfig Key='key1' KeyIdentifier='A' KeyFormat='Base64'>
   <ExpiredKeys>

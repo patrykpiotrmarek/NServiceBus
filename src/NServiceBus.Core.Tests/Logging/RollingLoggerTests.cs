@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.Logging
+﻿namespace NServiceBus_6.Core.Tests.Logging
 {
     using System;
     using System.Collections.Generic;

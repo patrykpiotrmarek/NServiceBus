@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Recoverability
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Recoverability
 {
     using System;
     using System.Collections.Generic;

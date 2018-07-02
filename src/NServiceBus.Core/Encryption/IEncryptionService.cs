@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using Pipeline;
 
@@ -6,7 +6,7 @@ namespace NServiceBus
     /// Abstraction for encryption capabilities.
     /// </summary>
     [ObsoleteEx(
-        Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+        Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
         RemoveInVersion = "8",
         TreatAsErrorFromVersion = "7")]
     public interface IEncryptionService
@@ -15,7 +15,7 @@ namespace NServiceBus
         /// Encrypts the given value returning an EncryptedValue.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         EncryptedValue Encrypt(string value, IOutgoingLogicalMessageContext context);
@@ -24,7 +24,7 @@ namespace NServiceBus
         /// Decrypts the given EncryptedValue object returning the source string.
         /// </summary>
         [ObsoleteEx(
-            Message = "Message property encryption is released as a dedicated 'NServiceBus.Encryption.MessageProperty' package.",
+            Message = "Message property encryption is released as a dedicated 'NServiceBus_6.Encryption.MessageProperty' package.",
             RemoveInVersion = "8",
             TreatAsErrorFromVersion = "7")]
         string Decrypt(EncryptedValue encryptedValue, IIncomingLogicalMessageContext context);

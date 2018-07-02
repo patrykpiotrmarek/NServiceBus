@@ -4,7 +4,7 @@
     using System.Collections;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using NServiceBus.MessageInterfaces.MessageMapper.Reflection;
+    using NServiceBus_6.MessageInterfaces.MessageMapper.Reflection;
     using NUnit.Framework;
 
     [TestFixture]

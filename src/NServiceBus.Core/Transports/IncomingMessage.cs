@@ -1,4 +1,4 @@
-namespace NServiceBus.Transport
+namespace NServiceBus_6.Transport
 {
     using System;
     using System.Collections.Generic;
@@ -22,7 +22,7 @@ namespace NServiceBus.Transport
 
             string originalMessageId;
 
-            if (headers.TryGetValue(NServiceBus.Headers.MessageId, out originalMessageId) && !string.IsNullOrEmpty(originalMessageId))
+            if (headers.TryGetValue(NServiceBus_6.Headers.MessageId, out originalMessageId) && !string.IsNullOrEmpty(originalMessageId))
             {
                 MessageId = originalMessageId;
             }
@@ -30,7 +30,7 @@ namespace NServiceBus.Transport
             {
                 MessageId = messageId;
 
-                headers[NServiceBus.Headers.MessageId] = messageId;
+                headers[NServiceBus_6.Headers.MessageId] = messageId;
             }
 
 

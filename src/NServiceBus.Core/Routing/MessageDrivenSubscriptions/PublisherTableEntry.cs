@@ -1,4 +1,4 @@
-namespace NServiceBus.Routing.MessageDrivenSubscriptions
+namespace NServiceBus_6.Routing.MessageDrivenSubscriptions
 {
     using System;
 

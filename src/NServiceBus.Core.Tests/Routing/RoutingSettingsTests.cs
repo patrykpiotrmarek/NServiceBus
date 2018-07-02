@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.Core.Tests.Routing
+﻿namespace NServiceBus_6.Core.Tests.Routing
 {
-    using NServiceBus;
+    using NServiceBus_6;
     using System;
     using System.Reflection;
     using MessageNamespaceA;
     using MessageNamespaceB;
-    using NServiceBus.Features;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Features;
+    using NServiceBus_6.Routing;
     using NUnit.Framework;
     using Settings;
 
@@ -123,7 +123,7 @@
 
 namespace MessageNamespaceA
 {
-    using NServiceBus;
+    using NServiceBus_6;
     class SomeMessageType : IMessage
     {
     }
@@ -135,12 +135,12 @@ namespace MessageNamespaceA
 
 namespace MessageNamespaceB
 {
-    using NServiceBus;
+    using NServiceBus_6;
     class OtherMessageType : IMessage
     {
     }
 }
 
-class MessageWithoutNamespace : NServiceBus.IMessage
+class MessageWithoutNamespace : NServiceBus_6.IMessage
 {
 }

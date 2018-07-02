@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Configuration.AdvanceExtensibility
+﻿namespace NServiceBus_6.Configuration.AdvanceExtensibility
 {
     using Settings;
 

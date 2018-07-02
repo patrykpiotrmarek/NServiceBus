@@ -1,4 +1,4 @@
-namespace NServiceBus.SagaPersisters.InMemory.Tests
+namespace NServiceBus_6.SagaPersisters.InMemory.Tests
 {
     using Sagas;
 

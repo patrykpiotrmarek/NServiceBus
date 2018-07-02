@@ -1,4 +1,4 @@
-namespace NServiceBus.Hosting.Helpers
+namespace NServiceBus_6.Hosting.Helpers
 {
     using System;
     using System.Collections.Generic;
@@ -330,7 +330,7 @@ namespace NServiceBus.Hosting.Helpers
                 const string bindingRedirects = @"<runtime>
     <assemblyBinding xmlns=""urn:schemas-microsoft-com:asm.v1"">
         <dependentAssembly>
-            <assemblyIdentity name=""NServiceBus.Core"" publicKeyToken=""9fc386479f8a226c"" culture=""neutral"" />
+            <assemblyIdentity name=""NServiceBus_6.Core"" publicKeyToken=""9fc386479f8a226c"" culture=""neutral"" />
             <bindingRedirect oldVersion=""0.0.0.0-{0}"" newVersion=""{0}"" />
         </dependentAssembly>
     </assemblyBinding>
@@ -486,7 +486,7 @@ namespace NServiceBus.Hosting.Helpers
         internal List<Type> TypesToSkip = new List<Type>();
         Assembly assemblyToScan;
         string baseDirectoryToScan;
-        const string NServicebusCoreAssemblyName = "NServiceBus.Core";
+        const string NServicebusCoreAssemblyName = "NServiceBus_6.Core";
 
         static string[] FileSearchPatternsToUse =
         {
@@ -513,7 +513,7 @@ namespace NServiceBus.Hosting.Helpers
             "raven.abstractions",
 
             // Azure host process, which is typically referenced for ease of deployment but should not be scanned
-            "NServiceBus.Hosting.Azure.HostProcess.exe",
+            "NServiceBus_6.Hosting.Azure.HostProcess.exe",
 
             // And other windows azure stuff
             "Microsoft.WindowsAzure"

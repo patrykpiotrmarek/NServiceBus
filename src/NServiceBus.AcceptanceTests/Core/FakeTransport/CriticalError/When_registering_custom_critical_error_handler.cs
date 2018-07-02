@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.FakeTransport.CriticalError
+﻿namespace NServiceBus_6.AcceptanceTests.Core.FakeTransport.CriticalError
 {
     using System;
     using System.Linq;

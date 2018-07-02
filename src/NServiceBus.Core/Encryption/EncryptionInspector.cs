@@ -1,5 +1,5 @@
 // ReSharper disable ReturnTypeCanBeEnumerable.Local
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections;

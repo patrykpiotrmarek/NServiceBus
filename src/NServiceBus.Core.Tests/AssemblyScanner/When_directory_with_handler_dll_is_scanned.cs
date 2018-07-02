@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Core.Tests.AssemblyScanner
+﻿namespace NServiceBus_6.Core.Tests.AssemblyScanner
 {
     using System.Linq;
     using Hosting.Helpers;
@@ -15,7 +15,7 @@
             var results = assemblyScanner
                 .GetScannableAssemblies();
 
-            var containsHandlers = "NServiceBus.Core.Tests"; //< assembly name, not file name
+            var containsHandlers = "NServiceBus_6.Core.Tests"; //< assembly name, not file name
             var assembly = results.Assemblies
                 .FirstOrDefault(a => a.GetName().Name.Contains(containsHandlers));
 

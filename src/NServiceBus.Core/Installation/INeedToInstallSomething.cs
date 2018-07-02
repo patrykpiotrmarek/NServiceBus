@@ -1,4 +1,4 @@
-namespace NServiceBus.Installation
+namespace NServiceBus_6.Installation
 {
     using System.Threading.Tasks;
 

@@ -1,4 +1,4 @@
-namespace NServiceBus.MessageMutator
+namespace NServiceBus_6.MessageMutator
 {
     using System.Threading.Tasks;
     using JetBrains.Annotations;

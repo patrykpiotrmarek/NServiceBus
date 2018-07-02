@@ -1,4 +1,4 @@
-﻿namespace NServiceBus
+﻿namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -29,7 +29,7 @@
     /// This class provides implementers of persisters with an extension mechanism for custom settings via extension
     /// methods.
     /// </summary>
-    /// <typeparam name="T">The persister definition eg <see cref="NServiceBus.InMemory" />, <see cref="MsmqTransport" />, etc.</typeparam>
+    /// <typeparam name="T">The persister definition eg <see cref="NServiceBus_6.InMemory" />, <see cref="MsmqTransport" />, etc.</typeparam>
     public class PersistenceExtensions<T> : PersistenceExtensions where T : PersistenceDefinition
     {
         /// <summary>

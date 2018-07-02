@@ -1,4 +1,4 @@
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;

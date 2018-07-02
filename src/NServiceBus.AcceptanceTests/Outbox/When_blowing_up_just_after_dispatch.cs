@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.AcceptanceTests.Outbox
+﻿namespace NServiceBus_6.AcceptanceTests.Outbox
 {
     using System;
     using System.Threading.Tasks;
     using AcceptanceTesting;
     using EndpointTemplates;
-    using NServiceBus.Pipeline;
+    using NServiceBus_6.Pipeline;
     using NUnit.Framework;
 
     public class When_blowing_up_just_after_dispatch : NServiceBusAcceptanceTest

@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.Feature
+﻿namespace NServiceBus_6.AcceptanceTests.Core.Feature
 {
     using System.Threading.Tasks;
     using AcceptanceTesting;

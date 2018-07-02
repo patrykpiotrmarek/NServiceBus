@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests
+namespace NServiceBus_6.Core.Tests
 {
     using System.Collections.Generic;
     using System.Linq;

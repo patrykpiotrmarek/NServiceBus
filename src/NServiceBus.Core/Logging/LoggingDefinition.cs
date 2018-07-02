@@ -1,4 +1,4 @@
-namespace NServiceBus.Logging
+namespace NServiceBus_6.Logging
 {
     /// <summary>
     /// Base class for logging definitions.

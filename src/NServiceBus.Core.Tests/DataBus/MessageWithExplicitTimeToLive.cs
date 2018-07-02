@@ -1,4 +1,4 @@
-namespace NServiceBus.Core.Tests.DataBus
+namespace NServiceBus_6.Core.Tests.DataBus
 {
     [TimeToBeReceived("00:01:00")]
     public class MessageWithExplicitTimeToLive : IMessage

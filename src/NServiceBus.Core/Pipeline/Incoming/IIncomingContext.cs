@@ -1,4 +1,4 @@
-﻿namespace NServiceBus.Pipeline
+﻿namespace NServiceBus_6.Pipeline
 {
     /// <summary>
     /// The base interface for everything after the transport receive phase.

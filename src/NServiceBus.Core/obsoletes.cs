@@ -2,35 +2,35 @@
 // ReSharper disable UnusedParameter.Local
 
 
-using NServiceBus;
+using NServiceBus_6;
 
 #pragma warning disable 1591
 // ReSharper disable UnusedParameter.Global
 
-/* Types not obsoleted since they would clash with the new `NServiceBus.Saga` type
-- `NServiceBus.Saga.ContainSagaData`
-- `NServiceBus.Saga.IAmStartedByMessages<T>`
-- `NServiceBus.Saga.IConfigureHowToFindSagaWithMessage`
-- `NServiceBus.Saga.IContainSagaData`
-- `NServiceBus.Saga.IFinder`
-- `NServiceBus.Saga.IFindSagas<T>`
-- `NServiceBus.Saga.IHandleSagaNotFound`
-- `NServiceBus.Saga.IHandleTimeouts<T>`
-- `NServiceBus.Saga.ISagaPersister`
-- `NServiceBus.Saga.Saga`
-- `NServiceBus.Saga.Saga<TSagaData>`
-- `NServiceBus.Saga.SagaPropertyMapper<TSagaData>`
-- `NServiceBus.Saga.ToSagaExpression<TSagaData, TMessage>`
-- `NServiceBus.Saga.UniqueAttribute`
+/* Types not obsoleted since they would clash with the new `NServiceBus_6.Saga` type
+- `NServiceBus_6.Saga.ContainSagaData`
+- `NServiceBus_6.Saga.IAmStartedByMessages<T>`
+- `NServiceBus_6.Saga.IConfigureHowToFindSagaWithMessage`
+- `NServiceBus_6.Saga.IContainSagaData`
+- `NServiceBus_6.Saga.IFinder`
+- `NServiceBus_6.Saga.IFindSagas<T>`
+- `NServiceBus_6.Saga.IHandleSagaNotFound`
+- `NServiceBus_6.Saga.IHandleTimeouts<T>`
+- `NServiceBus_6.Saga.ISagaPersister`
+- `NServiceBus_6.Saga.Saga`
+- `NServiceBus_6.Saga.Saga<TSagaData>`
+- `NServiceBus_6.Saga.SagaPropertyMapper<TSagaData>`
+- `NServiceBus_6.Saga.ToSagaExpression<TSagaData, TMessage>`
+- `NServiceBus_6.Saga.UniqueAttribute`
 */
 
 /* Types moved to the host package
-- `NServiceBus.EndpointNameAttribute`
-- `NServiceBus.EndpointSLAAttribute`
-- `NServiceBus.IConfigureThisEndpoint`
+- `NServiceBus_6.EndpointNameAttribute`
+- `NServiceBus_6.EndpointSLAAttribute`
+- `NServiceBus_6.IConfigureThisEndpoint`
 */
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
     using System.Collections.Generic;
@@ -61,7 +61,7 @@ namespace NServiceBus
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        Message = "Replaced by NServiceBus.Callbacks package")]
+        Message = "Replaced by NServiceBus_6.Callbacks package")]
     public interface ICallback
     {
     }
@@ -77,7 +77,7 @@ namespace NServiceBus
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        Message = "Replaced by NServiceBus.Callbacks package")]
+        Message = "Replaced by NServiceBus_6.Callbacks package")]
     public class CompletionResult
     {
     }
@@ -377,7 +377,7 @@ namespace NServiceBus
     }
 
     [ObsoleteEx(
-        Message = "`IWantToRunWhenBusStartsAndStops` has been moved to the host implementations and renamed. If you're self-hosting, instead of using this interface, you can call any startup code right before `Endpoint.Create` or any cleanup code right after `Endpoint.Stop`. When using either NServiceBus.Host or NServiceBus.Host.AzureCloudService, use the host's interface `IWantToRunWhenEndpointStartsAndStops` instead.",
+        Message = "`IWantToRunWhenBusStartsAndStops` has been moved to the host implementations and renamed. If you're self-hosting, instead of using this interface, you can call any startup code right before `Endpoint.Create` or any cleanup code right after `Endpoint.Stop`. When using either NServiceBus_6.Host or NServiceBus_6.Host.AzureCloudService, use the host's interface `IWantToRunWhenEndpointStartsAndStops` instead.",
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0")]
     public interface IWantToRunWhenBusStartsAndStops
@@ -501,7 +501,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     using System;
 
@@ -515,7 +515,7 @@ namespace NServiceBus.Unicast
     }
 
     [ObsoleteEx(
-        ReplacementTypeOrMember = "NServiceBus.UnicastBus.DeliveryMessageOptions",
+        ReplacementTypeOrMember = "NServiceBus_6.UnicastBus.DeliveryMessageOptions",
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0")]
     public abstract class DeliveryOptions
@@ -550,7 +550,7 @@ namespace NServiceBus.Unicast
     }
 
     [ObsoleteEx(
-        ReplacementTypeOrMember = "NServiceBus.UnicastBus.SendMessageOptions",
+        ReplacementTypeOrMember = "NServiceBus_6.UnicastBus.SendMessageOptions",
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0")]
     public class SendOptions : DeliveryOptions
@@ -594,7 +594,7 @@ namespace NServiceBus.Unicast
     }
 }
 
-namespace NServiceBus.Timeout.Core
+namespace NServiceBus_6.Timeout.Core
 {
     using System;
     using Unicast;
@@ -636,7 +636,7 @@ namespace NServiceBus.Timeout.Core
     }
 }
 
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     [ObsoleteEx(
         Message = "Not used anymore, use the 'NServiceBus.MessageIntent' header to detect if the message is a reply",
@@ -647,7 +647,7 @@ namespace NServiceBus.Unicast
     }
 }
 
-namespace NServiceBus.MessageMutator
+namespace NServiceBus_6.MessageMutator
 {
     [ObsoleteEx(
         Message = "Have the mutator implement both IMutateOutgoingMessages and IMutateIncomingMessages ",
@@ -666,7 +666,7 @@ namespace NServiceBus.MessageMutator
     }
 }
 
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     using System;
     using System.Collections.Generic;
@@ -719,7 +719,7 @@ namespace NServiceBus.Unicast
     }
 }
 
-namespace NServiceBus.Unicast.Behaviors
+namespace NServiceBus_6.Unicast.Behaviors
 {
     using System;
 
@@ -728,7 +728,7 @@ namespace NServiceBus.Unicast.Behaviors
         [ObsoleteEx(
             TreatAsErrorFromVersion = "6",
             RemoveInVersion = "7",
-            ReplacementTypeOrMember = "NServiceBus.Pipeline.MessageHandler(Action<object, object, object> invocation, Type handlerType)")]
+            ReplacementTypeOrMember = "NServiceBus_6.Pipeline.MessageHandler(Action<object, object, object> invocation, Type handlerType)")]
         public MessageHandler()
         {
             throw new NotImplementedException("Creator of the message handler must assign the handler type and the invocation delegate");
@@ -737,7 +737,7 @@ namespace NServiceBus.Unicast.Behaviors
         [ObsoleteEx(
             TreatAsErrorFromVersion = "6",
             RemoveInVersion = "7",
-            ReplacementTypeOrMember = "NServiceBus.Pipeline.MessageHandler.Invoke")]
+            ReplacementTypeOrMember = "NServiceBus_6.Pipeline.MessageHandler.Invoke")]
         public Action<object, object> Invocation
         {
             get { throw new NotImplementedException(); }
@@ -746,7 +746,7 @@ namespace NServiceBus.Unicast.Behaviors
     }
 }
 
-namespace NServiceBus.Unicast.Messages
+namespace NServiceBus_6.Unicast.Messages
 {
     using System;
 
@@ -772,7 +772,7 @@ namespace NServiceBus.Unicast.Messages
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -798,7 +798,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -838,7 +838,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Transports.Msmq
+namespace NServiceBus_6.Transports.Msmq
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -849,7 +849,7 @@ namespace NServiceBus.Transports.Msmq
     }
 }
 
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     using System;
 
@@ -887,7 +887,7 @@ namespace NServiceBus.Unicast
     }
 }
 
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     using System;
 
@@ -932,48 +932,48 @@ namespace NServiceBus.Features
     public class Encryptor { }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        ReplacementTypeOrMember = "NServiceBus.Transport.IDispatchMessages")]
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.IDispatchMessages")]
     public interface IDeferMessages
     {
         [ObsoleteEx(
             RemoveInVersion = "7.0",
             TreatAsErrorFromVersion = "6.0",
-            ReplacementTypeOrMember = "NServiceBus.Transport.ICancelDeferredMessages")]
+            ReplacementTypeOrMember = "NServiceBus_6.Transport.ICancelDeferredMessages")]
         void ClearDeferredMessages(string headerKey, string headerValue);
     }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        ReplacementTypeOrMember = "NServiceBus.Transport.IDispatchMessages")]
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.IDispatchMessages")]
     public interface IPublishMessages
     {
     }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     using Unicast;
 
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        ReplacementTypeOrMember = "NServiceBus.Transport.IDispatchMessages")]
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.IDispatchMessages")]
     public interface ISendMessages
     {
         void Send(TransportMessage message, SendOptions sendOptions);
     }
 }
 
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -984,7 +984,7 @@ namespace NServiceBus.Features
     }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -995,7 +995,7 @@ namespace NServiceBus.Transports
     }
 }
 
-namespace NServiceBus.Transport
+namespace NServiceBus_6.Transport
 {
     public partial class TransportInfrastructure
     {
@@ -1007,7 +1007,7 @@ namespace NServiceBus.Transport
     }
 }
 
-namespace NServiceBus.Unicast.Subscriptions
+namespace NServiceBus_6.Unicast.Subscriptions
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -1018,7 +1018,7 @@ namespace NServiceBus.Unicast.Subscriptions
     }
 }
 
-namespace NServiceBus.Unicast.Routing
+namespace NServiceBus_6.Unicast.Routing
 {
     using System;
 
@@ -1040,7 +1040,7 @@ namespace NServiceBus.Unicast.Routing
     }
 }
 
-namespace NServiceBus.AutomaticSubscriptions.Config
+namespace NServiceBus_6.AutomaticSubscriptions.Config
 {
     using System;
 
@@ -1066,13 +1066,13 @@ namespace NServiceBus.AutomaticSubscriptions.Config
     }
 }
 
-namespace NServiceBus.Config
+namespace NServiceBus_6.Config
 {
     using System;
     using System.Configuration;
 
     [ObsoleteEx(
-        Message = "Use the feature concept instead via A class which inherits from `NServiceBus.Features.Feature` and use `configuration.EnableFeature<YourClass>()`",
+        Message = "Use the feature concept instead via A class which inherits from `NServiceBus_6.Features.Feature` and use `configuration.EnableFeature<YourClass>()`",
         RemoveInVersion = "7",
         TreatAsErrorFromVersion = "6")]
     public interface IWantToRunWhenConfigurationIsComplete
@@ -1245,14 +1245,14 @@ namespace NServiceBus.Config
     }
 }
 
-namespace NServiceBus.SecondLevelRetries.Config
+namespace NServiceBus_6.SecondLevelRetries.Config
 {
     using System;
 
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        ReplacementTypeOrMember = "NServiceBus.SecondLevelRetriesSettings")]
+        ReplacementTypeOrMember = "NServiceBus_6.SecondLevelRetriesSettings")]
     public class SecondLevelRetriesSettings
     {
         /// <summary>
@@ -1261,7 +1261,7 @@ namespace NServiceBus.SecondLevelRetries.Config
         [ObsoleteEx(
             RemoveInVersion = "7.0",
             TreatAsErrorFromVersion = "6.0",
-            ReplacementTypeOrMember = "NServiceBus.SecondLevelRetriesSettings.CustomRetryPolicy(Func<IncomingMessage, TimeSpan> customPolicy)")]
+            ReplacementTypeOrMember = "NServiceBus_6.SecondLevelRetriesSettings.CustomRetryPolicy(Func<IncomingMessage, TimeSpan> customPolicy)")]
         public void CustomRetryPolicy(Func<TransportMessage, TimeSpan> customPolicy)
         {
             throw new NotImplementedException();
@@ -1269,7 +1269,7 @@ namespace NServiceBus.SecondLevelRetries.Config
     }
 }
 
-namespace NServiceBus.Faults
+namespace NServiceBus_6.Faults
 {
     using System;
 
@@ -1293,7 +1293,7 @@ namespace NServiceBus.Faults
          Message = "First Level Retries has been renamed to Immediate Retries",
          RemoveInVersion = "7",
          TreatAsErrorFromVersion = "6",
-         ReplacementTypeOrMember = "NServiceBus.Faults.ImmediateRetryMessage")]
+         ReplacementTypeOrMember = "NServiceBus_6.Faults.ImmediateRetryMessage")]
     public struct FirstLevelRetry
     {
     }
@@ -1301,7 +1301,7 @@ namespace NServiceBus.Faults
          Message = "Second Level Retries has been renamed to Delayed Retries",
          RemoveInVersion = "7",
          TreatAsErrorFromVersion = "6",
-         ReplacementTypeOrMember = "NServiceBus.Faults.DelayedRetryMessage")]
+         ReplacementTypeOrMember = "NServiceBus_6.Faults.DelayedRetryMessage")]
     public struct SecondLevelRetry
     {
     }
@@ -1315,7 +1315,7 @@ namespace NServiceBus.Faults
     }
 }
 
-namespace NServiceBus.Sagas
+namespace NServiceBus_6.Sagas
 {
     using System;
     using System.Collections.Generic;
@@ -1365,12 +1365,12 @@ namespace NServiceBus.Sagas
     }
 }
 
-namespace NServiceBus.Persistence
+namespace NServiceBus_6.Persistence
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0",
-        ReplacementTypeOrMember = "NServiceBus.Persistence.StorageType")]
+        ReplacementTypeOrMember = "NServiceBus_6.Persistence.StorageType")]
     public enum Storage
     {
         Timeouts = 1,
@@ -1381,7 +1381,7 @@ namespace NServiceBus.Persistence
     }
 }
 
-namespace NServiceBus.Unicast.Queuing
+namespace NServiceBus_6.Unicast.Queuing
 {
     [ObsoleteEx(
         ReplacementTypeOrMember = "QueueBindings",
@@ -1392,13 +1392,13 @@ namespace NServiceBus.Unicast.Queuing
     }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     using System;
     using Unicast.Transport;
 
     [ObsoleteEx(
-        ReplacementTypeOrMember = "NServiceBus.Transport.IPushMessages",
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.IPushMessages",
         RemoveInVersion = "7.0",
         TreatAsErrorFromVersion = "6.0")]
     public interface IDequeueMessages
@@ -1409,7 +1409,7 @@ namespace NServiceBus.Transports
     }
 }
 
-namespace NServiceBus.Transports.Msmq
+namespace NServiceBus_6.Transports.Msmq
 {
     [ObsoleteEx(
         Message = "No longer available, resolve an instance of IPushMessages from the container instead",
@@ -1420,7 +1420,7 @@ namespace NServiceBus.Transports.Msmq
     }
 }
 
-namespace NServiceBus.Unicast.Transport
+namespace NServiceBus_6.Unicast.Transport
 {
     using System;
     using System.Transactions;
@@ -1479,7 +1479,7 @@ namespace NServiceBus.Unicast.Transport
     }
 }
 
-namespace NServiceBus.Settings
+namespace NServiceBus_6.Settings
 {
     using System;
 
@@ -1524,7 +1524,7 @@ namespace NServiceBus.Settings
     }
 }
 
-namespace NServiceBus.Routing.StorageDrivenPublishing
+namespace NServiceBus_6.Routing.StorageDrivenPublishing
 {
     using System;
     using System.Collections.Generic;
@@ -1546,7 +1546,7 @@ namespace NServiceBus.Routing.StorageDrivenPublishing
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
@@ -1557,7 +1557,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Unicast
+namespace NServiceBus_6.Unicast
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
@@ -1568,7 +1568,7 @@ namespace NServiceBus.Unicast
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
@@ -1579,7 +1579,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Pipeline.Contexts
+namespace NServiceBus_6.Pipeline.Contexts
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
@@ -1590,7 +1590,7 @@ namespace NServiceBus.Pipeline.Contexts
     }
 }
 
-namespace NServiceBus.Pipeline
+namespace NServiceBus_6.Pipeline
 {
     using System;
 
@@ -1780,7 +1780,7 @@ namespace NServiceBus.Pipeline
     }
 }
 
-namespace NServiceBus.Satellites
+namespace NServiceBus_6.Satellites
 {
     [ObsoleteEx(
         Message = "No longer an extension point. Instead create a Feature and use FeatureConfigurationContext.AddSatelliteReceiver(...).",
@@ -1799,7 +1799,7 @@ namespace NServiceBus.Satellites
     }
 }
 
-namespace NServiceBus.Unicast.Transport
+namespace NServiceBus_6.Unicast.Transport
 {
     using System;
 
@@ -1814,7 +1814,7 @@ namespace NServiceBus.Unicast.Transport
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
         RemoveInVersion = "7",
-        ReplacementTypeOrMember = "NServiceBus.Transport.IPushMessages")]
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.IPushMessages")]
     public interface ITransport
     {
     }
@@ -1852,19 +1852,19 @@ namespace NServiceBus.Unicast.Transport
     }
 }
 
-namespace NServiceBus.Transports
+namespace NServiceBus_6.Transports
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
         RemoveInVersion = "7",
-        Message = "The namespace NServiceBus.Transports was renamed to NServiceBus.Transport.",
-        ReplacementTypeOrMember = "NServiceBus.Transport.TransportDefinition")]
+        Message = "The namespace NServiceBus_6.Transports was renamed to NServiceBus_6.Transport.",
+        ReplacementTypeOrMember = "NServiceBus_6.Transport.TransportDefinition")]
     public abstract class TransportDefinition
     {
     }
 }
 
-namespace NServiceBus.Transport
+namespace NServiceBus_6.Transport
 {
     using System;
 
@@ -1914,7 +1914,7 @@ namespace NServiceBus.Transport
 
 #pragma warning disable 0067
 
-namespace NServiceBus.Unicast.Transport
+namespace NServiceBus_6.Unicast.Transport
 {
     [ObsoleteEx(
         TreatAsErrorFromVersion = "6",
@@ -1927,7 +1927,7 @@ namespace NServiceBus.Unicast.Transport
 
 #pragma warning restore 0067
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     public static partial class Headers
     {
@@ -1939,7 +1939,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -2002,7 +2002,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Hosting.Helpers
+namespace NServiceBus_6.Hosting.Helpers
 {
     using System;
     using System.Collections.Generic;
@@ -2021,7 +2021,7 @@ namespace NServiceBus.Hosting.Helpers
     }
 }
 
-namespace NServiceBus.Outbox
+namespace NServiceBus_6.Outbox
 {
     using System;
 
@@ -2038,7 +2038,7 @@ namespace NServiceBus.Outbox
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -2132,7 +2132,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -2239,7 +2239,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2250,7 +2250,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Settings
+namespace NServiceBus_6.Settings
 {
     using System;
     using System.Transactions;
@@ -2335,7 +2335,7 @@ Suppressing the ambient transaction created by the MSMQ and SQL Server transport
         }
     }
 
-    namespace NServiceBus
+    namespace NServiceBus_6
     {
         [ObsoleteEx(
             RemoveInVersion = "7.0",
@@ -2355,7 +2355,7 @@ Suppressing the ambient transaction created by the MSMQ and SQL Server transport
     }
 }
 
-namespace NServiceBus
+namespace NServiceBus_6
 {
     using System;
 
@@ -2372,7 +2372,7 @@ namespace NServiceBus
     }
 }
 
-namespace NServiceBus.Serialization
+namespace NServiceBus_6.Serialization
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2383,7 +2383,7 @@ namespace NServiceBus.Serialization
     }
 }
 
-namespace NServiceBus.Serializers.Json
+namespace NServiceBus_6.Serializers.Json
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2394,7 +2394,7 @@ namespace NServiceBus.Serializers.Json
     }
 }
 
-namespace NServiceBus.Serializers.XML
+namespace NServiceBus_6.Serializers.XML
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2405,7 +2405,7 @@ namespace NServiceBus.Serializers.XML
     }
 }
 
-namespace NServiceBus.Transports.Msmq
+namespace NServiceBus_6.Transports.Msmq
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2416,7 +2416,7 @@ namespace NServiceBus.Transports.Msmq
     }
 }
 
-namespace NServiceBus.Transports.Msmq.Config
+namespace NServiceBus_6.Transports.Msmq.Config
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2439,7 +2439,7 @@ public static class ConfigureHandlerSettings
 }
 
 
-namespace NServiceBus.ObjectBuilder
+namespace NServiceBus_6.ObjectBuilder
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2458,7 +2458,7 @@ namespace NServiceBus.ObjectBuilder
     }
 }
 
-namespace NServiceBus.ObjectBuilder
+namespace NServiceBus_6.ObjectBuilder
 {
     using System;
     using System.Linq.Expressions;
@@ -2489,7 +2489,7 @@ namespace NServiceBus.ObjectBuilder
     }
 }
 
-namespace NServiceBus.Settings
+namespace NServiceBus_6.Settings
 {
     using System;
     using System.Linq.Expressions;
@@ -2535,7 +2535,7 @@ namespace NServiceBus.Settings
     }
 }
 
-namespace NServiceBus.Settings
+namespace NServiceBus_6.Settings
 {
     using System;
     using ObjectBuilder;
@@ -2562,7 +2562,7 @@ namespace NServiceBus.Settings
     }
 }
 
-namespace NServiceBus.DataBus
+namespace NServiceBus_6.DataBus
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2581,7 +2581,7 @@ namespace NServiceBus.DataBus
     }
 }
 
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",
@@ -2599,7 +2599,7 @@ namespace NServiceBus.Features
     }
 }
 
-namespace NServiceBus.Features
+namespace NServiceBus_6.Features
 {
     [ObsoleteEx(
         RemoveInVersion = "7.0",

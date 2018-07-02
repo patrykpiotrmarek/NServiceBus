@@ -1,10 +1,10 @@
-﻿namespace NServiceBus.AcceptanceTests.Core.FakeTransport
+﻿namespace NServiceBus_6.AcceptanceTests.Core.FakeTransport
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Routing;
     using Settings;
     using Transport;
 

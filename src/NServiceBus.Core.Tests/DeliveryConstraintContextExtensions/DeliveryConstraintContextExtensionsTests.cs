@@ -1,12 +1,12 @@
-﻿namespace NServiceBus.Core.Tests.DeliveryConstraintContextExtensions
+﻿namespace NServiceBus_6.Core.Tests.DeliveryConstraintContextExtensions
 {
     using System;
     using System.Collections.Generic;
     using Extensibility;
     using DelayedDelivery;
     using DeliveryConstraints;
-    using NServiceBus.Features;
-    using NServiceBus.Routing;
+    using NServiceBus_6.Features;
+    using NServiceBus_6.Routing;
     using Settings;
     using Transport;
     using NUnit.Framework;

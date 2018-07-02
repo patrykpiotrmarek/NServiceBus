@@ -1,9 +1,9 @@
-﻿namespace NServiceBus.Core.Tests.Sagas
+﻿namespace NServiceBus_6.Core.Tests.Sagas
 {
     using System.Threading.Tasks;
     using Extensibility;
-    using NServiceBus.Persistence;
-    using NServiceBus.Sagas;
+    using NServiceBus_6.Persistence;
+    using NServiceBus_6.Sagas;
     using NUnit.Framework;
     using System;
     using System.Collections.Generic;
